@@ -1,2 +1,2 @@
-# brain-disk
-Know how the wolrd works
+# Brain Disk
+Know how the world works.
