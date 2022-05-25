@@ -21,4 +21,7 @@ In 2015, Vitalik Buterin & Gavin Wood has released Ethereum, the first
 blockchain with smart contract functionality.
 
 
+## Why?
+
+
 ## How?
