@@ -35,3 +35,7 @@ applets).
 REST APIs communicate via **HTTP requests** to perform **standard database**
 **functions** like creating, reading, updating and deleting records (CRUD)
 within a resource.
+
+The response can be delivered to a client in any format including **JSON,**
+**HTML, XLT, Python, PHP, or plain text**. JSON is popular because it’s
+readable by both humans and machines—and it is programming language-agnostic.
