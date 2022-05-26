@@ -39,3 +39,8 @@ within a resource.
 The response can be delivered to a client in any format including **JSON,**
 **HTML, XLT, Python, PHP, or plain text**. JSON is popular because it’s
 readable by both humans and machines—and it is programming language-agnostic.
+
+**Request headers and parameters** are also important in REST API calls because
+they include **important identifier information** such as **metadata,**
+**authorizations, uniform resource identifiers (URIs), caching, cookies** and
+more.
