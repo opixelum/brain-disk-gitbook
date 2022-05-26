@@ -2,11 +2,11 @@
 
 ## DeFi Aggregator
 
-A DeFi aggregator brings trades across decentralized exchanges like Uniswap,
-into one place.
+A DeFi aggregator brings trades **across decentralized exchanges** like Uniswap,
+**into one place**.
 
-It saves users time and increases efficiency for better trades by finding
-lowest fees & best trades accross multiple markets & blockchains.
+It saves users time and increases efficiency for better trades by **finding
+lowest fees & best trades accross multiple markets & blockchains**.
 
 Some DeFi aggregators:
 - [1inch](https://app.1inch.io)
