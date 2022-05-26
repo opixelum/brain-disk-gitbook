@@ -13,3 +13,13 @@ services.
 
 ## REST API
 API that conforms to the design principles of the REST architectural style.
+
+## URI
+Uniform Resource Identifier. Unique sequence of characters that identifies a
+logical or physical resource used by web technologies.
+
+## URL
+Uniform Resource Locator. URI subset that ndicates where a resource is located
+
+## URN
+Uniform Resource Name. URI subset that permanently designates a resource.
