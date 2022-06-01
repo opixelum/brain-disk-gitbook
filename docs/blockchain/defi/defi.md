@@ -1,5 +1,3 @@
-# Decentralized Finance
-
 ## DeFi Aggregator
 
 A DeFi aggregator brings trades **across decentralized exchanges** like Uniswap,

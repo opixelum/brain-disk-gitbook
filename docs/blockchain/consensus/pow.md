@@ -1,6 +1,3 @@
-# Proof of Work
-
-
 ## What?
 
 PoW is a consensus mechanism that uses computer power in order to prevent

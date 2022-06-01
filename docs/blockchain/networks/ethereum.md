@@ -1,6 +1,3 @@
-# Ethereum
-
-
 ## What?
 
 Ethereum is blockchain with smart contract functionality.

@@ -1,5 +1,3 @@
-# Smart contract
-
 ## Abstract contract
 
 Abstract contracts are contracts that have at least one function without its implementation.

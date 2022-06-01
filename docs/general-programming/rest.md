@@ -1,5 +1,3 @@
-# REST
-
 ## What?
 
 REST is an **architectural style** for **developing web services**. It defines
