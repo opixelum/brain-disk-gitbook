@@ -1,6 +1,3 @@
-# Blockchain
-
-
 ## What?
 
 A blockchain is a growing list of data organized by blocks, linked together
