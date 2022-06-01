@@ -1,6 +1,6 @@
 # Summary
 
-* [Brain Disk](README.md)
+* [Introduction](README.md)
 * [Glossary](glossary.md)
 
 ## Blockchain
