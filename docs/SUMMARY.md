@@ -8,6 +8,7 @@
 * [Infrastructure](blockchain/infrastructure.md)
 * [Networks](blockchain/networks)
     * [Ethereum](blockchain/networks/ethereum.md)
+        * [Token standards (ERC)](blockchain/networks/ethereum/erc.md)
 * [Consensus](blockchain/consensus)
     * [Proof of Work (PoW)](blockchain/consensus/pow.md)
     * [Proof of Stake (PoS)](blockchain/consensus/pos.md)
