@@ -1,31 +1,32 @@
-## What?
+## Introduction
 
 Ethereum is blockchain with smart contract functionality.
 
-
-## When?
-
 It was conceived in 2013 by Vitalik Buterin and released the July 30th 2015.
 Also, Ethereum should get a major update in June 2022.
-
-
-## Why?
 
 For Vitalik Buterin, blockchains could benefit from other applications besides
 money. Moreover, it needed a more robust language for application development,
 in order to link real-world assets such as stocks and property, to the
 blockchain.
 
+## Token Standards (ERC)
 
-## How?
+ERC (Ethereum Request for Comments) help ensure smart contracts remain
+composable, so any token using a standard is compatible with any other
+smart contract using the same standard.
 
-### Gas
+Here are some of the most popular ERC:
+- [ERC-20](#erc-20)
+- [ERC-721](#erc-721)
+- [ERC-1155](#erc-1155)
+- [ERC-4626](#erc-4626)
 
 ### ERC-20
 
-The ERC-20 (Ethereum Request for Comments 20), proposed by Fabian Vogelsteller
-in November 2015, is a Token Standard that implements an API for tokens within
-Smart Contracts.
+The ERC-20 proposed by Fabian Vogelsteller is a standard interface for fungible
+(interchangeable) tokens, like voting tokens, staking tokens or virtual
+currencies.
 
 Example functionalities ERC-20 provides:
 - transfer tokens from one account to another
@@ -33,3 +34,12 @@ Example functionalities ERC-20 provides:
 - get the total supply of the token available on the network
 - approve whether an amount of token from an account can be spent by a
 third-party account
+
+### ERC-721
+
+ERC-721 is a token standard for Non-Fongible Tokens (NFT), like artworks, ENS,
+lands in a metaverse or positions in DeFi.
+
+### ERC-1155
+
+### ERC-4626
