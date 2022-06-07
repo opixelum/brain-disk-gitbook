@@ -57,14 +57,14 @@ third-party account
 
 ### ERC-777
 
-_Comming soon_
+_Coming soon_
 
 
 ### ERC-1155
 
-_Comming soon_
+_Coming soon_
 
 
 ### ERC-4626
 
-_Comming soon_
+_Coming soon_
