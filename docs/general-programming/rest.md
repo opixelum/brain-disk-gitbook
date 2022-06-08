@@ -1,10 +1,12 @@
-## What?
+# REST
+
+## Definition
 
 REST is an **architectural style** for **developing web services**. It defines
 **6 design principles**, used for **APIs**.
 
 
-### Principles
+## Principles
 
 1. **Uniform interface**: All API requests for the same resource should look
 the same, no matter where the request comes from.
@@ -28,7 +30,7 @@ in certain cases, responses can also contain executable code (such as Java
 applets).
 
 
-## How?
+## How it works
 
 REST APIs communicate via **HTTP requests** to perform **standard database**
 **functions** like creating, reading, updating and deleting records (CRUD)

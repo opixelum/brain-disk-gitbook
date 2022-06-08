@@ -1,3 +1,5 @@
+# Ethereum
+
 ## Introduction
 
 Ethereum is blockchain with smart contract functionality.
