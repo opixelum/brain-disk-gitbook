@@ -16,6 +16,9 @@ digital vault.
 
 Wrapped tokens are a solution to the problem of blockchain interoperability.
 
+Thus, one of the most common usecase for them is in DeFi protocols, which operate on
+many different network for a same asset.
+
 
 ## Example
 
