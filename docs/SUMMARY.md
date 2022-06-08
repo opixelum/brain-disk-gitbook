@@ -9,14 +9,14 @@
 * [Networks](blockchain/networks)
     * [Ethereum](blockchain/networks/ethereum/ethereum.md)
     * [Bitcoin](blockchain/networks/bitcoin.md)
-* [Cryptocurrencies](blockchain/cryptocurrencies/)
-    * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
 * [Consensus](blockchain/consensus)
     * [Proof of Work (PoW)](blockchain/consensus/pow.md)
     * [Proof of Stake (PoS)](blockchain/consensus/pos.md)
     * [Proof of Authority (PoA)](blockchain/consensus/poa.md)
-* [Decentralized Finance (DeFi)](blockchain/defi.md)
+* [Cryptocurrencies](blockchain/cryptocurrencies/)
+    * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
 * [Smart contracts](blockchain/development/smart_contracts.md)
+* [Decentralized Finance (DeFi)](blockchain/defi.md)
 
 ## General programming
 
