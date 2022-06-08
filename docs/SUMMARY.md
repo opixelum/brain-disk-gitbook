@@ -15,6 +15,7 @@
     * [Proof of Authority (PoA)](blockchain/consensus/poa.md)
 * [Cryptocurrencies](blockchain/cryptocurrencies/)
     * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
+    * [Wrapped tokens](blockchain/cryptocurrencies/wrapped_tokens.md)
 * [Smart contracts](blockchain/development/smart_contracts.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
 
