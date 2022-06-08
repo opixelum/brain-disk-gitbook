@@ -21,7 +21,7 @@ A liquidity pool is a bunch of crypto currencies locked in a smart contract.
 
 A liquidity provider is someone who funds a liquidity pool with crypto assets.
 
-It facilitate trading on the platform and in return, the provider earn passive
+It facilitates trading on the platform and in return, the provider earn passive
 income on his deposit.
 
 
