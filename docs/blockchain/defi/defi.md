@@ -1,3 +1,5 @@
+# Decentralized Finance (DeFi)
+
 ## DeFi Aggregator
 
 A DeFi aggregator brings trades **across decentralized exchanges** like Uniswap,
@@ -13,3 +15,5 @@ Some DeFi aggregators:
 - [Zerion](https://app.zerion.io)
 - [Matcha](https://matcha.xyz)
 - [PlasmaFinance](https://apy.plasma.finance)
+- [Matcha](https://matcha.xyz)
+- [OpenOcean](https://openocean.finance)
