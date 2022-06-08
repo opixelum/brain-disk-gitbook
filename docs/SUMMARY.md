@@ -15,11 +15,8 @@
     * [Proof of Work (PoW)](blockchain/consensus/pow.md)
     * [Proof of Stake (PoS)](blockchain/consensus/pos.md)
     * [Proof of Authority (PoA)](blockchain/consensus/poa.md)
-* [Decentralized Finance (DeFi)](blockchain/defi/defi.md)
-    * [Liquidity Pools](blockchain/defi/liquidity_pool.md)
-    * [Aggregators](blockchain/defi/aggregators.md)
-* [Development](blockchain/development)
-    * [Smart contract](blockchain/development/smart_contract.md)
+* [Decentralized Finance (DeFi)](blockchain/defi.md)
+* [Smart contracts](blockchain/development/smart_contracts.md)
 
 ## General programming
 

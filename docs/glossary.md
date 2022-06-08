@@ -1,5 +1,9 @@
 # Glossary
 
+## Blockchain
+List of data organized by blocks, managed by a peer-to-peer network, as a
+distributed ledger.
+
 ## Swap
 Refers to exchanging one crypto asset to another.
 
