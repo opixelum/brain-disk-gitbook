@@ -16,7 +16,7 @@
 * [Cryptocurrencies](blockchain/cryptocurrencies)
     * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
     * [Wrapped tokens](blockchain/cryptocurrencies/wrapped_tokens.md)
-* [Smart contracts](blockchain/development/smart-contracts)
+* [Smart contracts](blockchain/development/smart-contracts/smart_contracts.md)
     * [Solidity](blockchain/development/smart-contracts/solidity.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
 
