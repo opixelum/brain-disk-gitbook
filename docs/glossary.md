@@ -6,6 +6,7 @@ service to access a resource within another application or service.
 
 ## Bitmask
 Pattern of bits indicating which bits in a second pattern are to be modified.
+E.g.: a binary IP address mask is a bitmask.
 
 ## Blockchain
 List of data organized by blocks, managed by a peer-to-peer network, as a
