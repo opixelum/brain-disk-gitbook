@@ -13,10 +13,11 @@
     * [Proof of Work (PoW)](blockchain/consensus/pow.md)
     * [Proof of Stake (PoS)](blockchain/consensus/pos.md)
     * [Proof of Authority (PoA)](blockchain/consensus/poa.md)
-* [Cryptocurrencies](blockchain/cryptocurrencies/)
+* [Cryptocurrencies](blockchain/cryptocurrencies)
     * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
     * [Wrapped tokens](blockchain/cryptocurrencies/wrapped_tokens.md)
-* [Smart contracts](blockchain/development/smart_contracts.md)
+* [Smart contracts](blockchain/development/smart-contracts)
+    * [Solidity](blockchain/development/smart-contracts/solidity.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
 
 ## General programming
