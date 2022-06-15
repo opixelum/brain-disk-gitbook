@@ -40,7 +40,7 @@ which the trade is executed.
 Refers to exchanging one crypto asset to another.
 
 ## Upkeep (Chainlink)
-Smart contract registered on the Keepers Registory, so the Keepers Network can
+Smart contract registered on the Keepers Registry, so the Keepers Network can
 automates it.
 
 ## URI
