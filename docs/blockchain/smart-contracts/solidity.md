@@ -87,6 +87,31 @@ Types holding a 20 byte value (size of an Ethereum address).
 
 ### Reference types
 
+#### Data location
+
+Every reference type has a data location, either ***calldata***, ***memory*** or
+***storage***.
+
+##### Calldata
+
+- Behaves mostly like ***memory***.
+- Only valid for parameters of ***external*** functions.
+- Non-modifiable variables.
+
+##### Memory
+
+- Not written to the blockchain.
+- Must be defined inside a function or as a function parameter.
+- Destroyed after exiting the function.
+- Local scope only.
+
+##### Storage
+
+- Written to the blockchain (persistent).
+- Accessible from anywhere (inside or outside the smart contract).
+- Global variables are by default storage variables.
+- Incur gas fees.
+
 #### Arrays
 
 There are two types of arrays:
