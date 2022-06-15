@@ -1,8 +1,8 @@
 # Glossary
 
-## API
-Application Programming Interface. Mechanism that enables an application or
-service to access a resource within another application or service.
+## Application Programming Interface (API)
+Mechanism that enables an application or service to access a resource within
+another application or service.
 
 ## Bitmask
 Pattern of bits indicating which bits in a second pattern are to be modified.
@@ -25,9 +25,8 @@ Person who fund a liquidity pool with assets.
 Key step in the development of a new product or service, where we demonstrate
 its sustainability.
 
-## REST
-Representational State Transfer. Architectural style for developing web
-services.
+## Representational State Transfer (REST)
+Architectural style for developing web services.
 
 ## REST API
 API that conforms to the design principles of the REST architectural style.
@@ -43,15 +42,15 @@ Refers to exchanging one crypto asset to another.
 Smart contract registered on the Keepers Registry, so the Keepers Network can
 automates it.
 
-## URI
-Uniform Resource Identifier. Unique sequence of characters that identifies a
-logical or physical resource used by web technologies.
+## Uniform Resource Identifier (URI)
+Unique sequence of characters that identifies a logical or physical resource
+used by web technologies.
 
-## URL
-Uniform Resource Locator. URI subset that ndicates where a resource is located
+## Uniform Resource Locator (URL)
+URI subset that ndicates where a resource is located
 
-## URN
-Uniform Resource Name. URI subset that permanently designates a resource.
+## Uniform Resource Name (URN)
+URI subset that permanently designates a resource.
 
 ## Yield farming
 Act of putting money into DeFi applications as a liquidity provider, to earn
