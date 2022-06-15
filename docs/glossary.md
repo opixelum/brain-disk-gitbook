@@ -4,6 +4,9 @@
 Application Programming Interface. Mechanism that enables an application or
 service to access a resource within another application or service.
 
+## Bitmask
+Pattern of bits indicating which bits in a second pattern are to be modified.
+
 ## Blockchain
 List of data organized by blocks, managed by a peer-to-peer network, as a
 distributed ledger.
