@@ -39,6 +39,10 @@ which the trade is executed.
 ## Swap
 Refers to exchanging one crypto asset to another.
 
+## Upkeep (Chainlink)
+Smart contract registered on the Keepers Registory, so the Keepers Network can
+automates it.
+
 ## URI
 Uniform Resource Identifier. Unique sequence of characters that identifies a
 logical or physical resource used by web technologies.
