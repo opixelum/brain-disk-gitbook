@@ -17,6 +17,10 @@ Pile of crypto currencies locked in a smart contract.
 ## Liquidity provider
 Person who fund a liquidity pool with assets.
 
+## Proof of Concept (PoC)
+Key step in the development of a new product or service, where we demonstrate
+its sustainability.
+
 ## REST
 Representational State Transfer. Architectural style for developing web
 services.
