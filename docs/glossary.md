@@ -12,6 +12,9 @@ E.g.: a binary IP address mask is a bitmask.
 List of data organized by blocks, managed by a peer-to-peer network, as a
 distributed ledger.
 
+## Ethereum Improvement Proposals (EIP)
+Standards specifying potential new features or processes for Ethereum.
+
 ## Liquidity
 Refers to how easy it is to trade assets without impacting their price.
 
