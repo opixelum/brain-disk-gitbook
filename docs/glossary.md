@@ -41,9 +41,14 @@ Person who fund a liquidity pool with assets.
 ## N
 
 ### Nonce
-- _[general]_ Number used only once.
-- _[blockchain]_ 32-bits number that miners need to find, for finding the next
-block hash and getting rewarded.
+- _[general]_
+    
+    Number used only once.
+
+- _[blockchain]_
+    
+    32-bits number that miners need to find, for finding the next block hash
+    and getting rewarded.
 
 
 ## P
