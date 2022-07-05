@@ -14,3 +14,10 @@
 
 - Redis
 - MEMcached
+
+## Companies that use it
+
+- Apple
+- Twitter
+- GitHub
+- Snapchat
