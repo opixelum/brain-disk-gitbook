@@ -1,5 +1,7 @@
 # Grap database paradigm
 
+## Features
+
 - Data is represented as nodes & relationships between them as edges.
 - Good performance, especially on larger datasets.
 - Good alternative to SQL, especially when running a lot of joins.
