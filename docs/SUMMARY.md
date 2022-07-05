@@ -22,4 +22,12 @@
 
 ## General programming
 
+* [Databases paradigms](general-programming/databases-paradigms)
+    * [Key-Value](general-programming/databases-paradigms/key-value.md)
+    * [Wide-Column](general-programming/databases-paradigms/wide-column.md)
+    * [Document oriented](general-programming/databases-paradigms/document-oriented.md)
+    * [Relational](general-programming/databases-paradigms/relational.md)
+    * [Graph](general-programming/databases-paradigms/graph.md)
+    * [Search](general-programming/databases-paradigms/search.md)
+    * [Multi-Model](general-programming/databases-paradigms/multi-model.md)
 * [REST](general-programming/rest.md)
