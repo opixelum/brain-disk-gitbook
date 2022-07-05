@@ -7,6 +7,10 @@
 
 ## A
 
+### Abstraction
+Key concept of object-oriented programming, that refers to handle complexity
+by hiding unnecessary details from the user.
+
 ### Application Programming Interface (API)
 Mechanism that enables an application or service to access a resource within
 another application or service.
@@ -27,6 +31,17 @@ distributed ledger.
 
 ### Ethereum Improvement Proposals (EIP)
 Standards specifying potential new features or processes for Ethereum.
+
+### Encapsulation
+Key concept of object-oriented programming, that refers to bundle data &
+methods into a single unit, frequently in the form of class.
+
+
+## I
+
+### Inheritance
+Key concept of object-oriented programming, that refers to derive a class from
+other classes.
 
 
 ## L
@@ -54,7 +69,18 @@ Person who fund a liquidity pool with assets.
     and getting rewarded.
 
 
+## O
+
+### Object-oriented programming
+Paradigm in which prgrams are structured around objects or data fields rather
+than functions or logic.
+
+
 ## P
+
+### Polymorphism
+Describes the concept that you can access objects of different types through
+the same interface.
 
 ### Proof of Concept (PoC)
 Key step in the development of a new product or service, where we demonstrate
