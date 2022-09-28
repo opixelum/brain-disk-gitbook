@@ -31,3 +31,7 @@
     * [Search](general-programming/databases-paradigms/search.md)
     * [Multi-Model](general-programming/databases-paradigms/multi-model.md)
 * [REST](general-programming/rest.md)
+
+## Programming languages
+
+* [C](programming-languages/c.md)
