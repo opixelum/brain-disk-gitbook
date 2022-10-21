@@ -44,6 +44,12 @@ Key concept of object-oriented programming, that refers to derive a class from
 other classes.
 
 
+## K
+
+### Kernel
+Program at core of a computer's OS which has complete control over the system,
+for managing interactions between hardware and software components.
+
 ## L
 
 ### Liquidity
