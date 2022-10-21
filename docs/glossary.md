@@ -32,6 +32,13 @@ List of data organized by blocks, managed by a peer-to-peer network, as a
 distributed ledger.
 
 
+## C
+
+### Certificate Authority (CA)
+Entity that stores, signs & issues
+[digital certificates](#digital-certificates).
+
+
 ## E
 
 ### Ethereum Improvement Proposals (EIP)
