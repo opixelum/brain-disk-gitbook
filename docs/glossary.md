@@ -36,7 +36,13 @@ distributed ledger.
 
 ### Certificate Authority (CA)
 Entity that stores, signs & issues
-[digital certificates](#digital-certificates).
+[digital certificates](#digital-certificate).
+
+
+## D
+
+### Digital certificate
+Electronic document used to prove the validity of a [public key](#public-key).
 
 
 ## E
