@@ -41,6 +41,12 @@ Standards specifying potential new features or processes for Ethereum.
 Key concept of object-oriented programming, that refers to bundle data &
 methods into a single unit, frequently in the form of class.
 
+## F
+
+### Firmware
+Computer software that provides the low-level control for a device's specific
+hardware.
+
 
 ## I
 
