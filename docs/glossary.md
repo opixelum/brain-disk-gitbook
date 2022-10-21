@@ -81,6 +81,9 @@ Person who fund a liquidity pool with assets.
 Paradigm in which prgrams are structured around objects or data fields rather
 than functions or logic.
 
+### Operating system
+Program that provides interface between user and computer.
+
 
 ## P
 
