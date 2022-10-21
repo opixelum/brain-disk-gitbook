@@ -18,6 +18,11 @@ another application or service.
 
 ## B
 
+### Basic Input Output System (BIOS)
+[Firmware](#firmware) used to provide runtime services for
+[OS](#operating-system-os) & programs & to perform hardware initialization
+during the bootin process.
+
 ### Bitmask
 Pattern of bits indicating which bits in a second pattern are to be modified.
 E.g.: a binary IP address mask is a bitmask.
@@ -91,7 +96,7 @@ Person who fund a liquidity pool with assets.
 Paradigm in which prgrams are structured around objects or data fields rather
 than functions or logic.
 
-### Operating system
+### Operating system (OS)
 Program that provides interface between user and computer.
 
 
