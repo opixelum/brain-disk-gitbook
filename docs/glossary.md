@@ -129,6 +129,10 @@ the same interface.
 Key step in the development of a new product or service, where we demonstrate
 its sustainability.
 
+### Public key
+Cryptographic element that is the publicity shared half of an encryption code &
+that can be used only to encode messages.
+
 
 ## R
 
