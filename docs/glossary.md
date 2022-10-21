@@ -43,6 +43,16 @@ methods into a single unit, frequently in the form of class.
 Key concept of object-oriented programming, that refers to derive a class from
 other classes.
 
+### Interrupt
+Request for the processor to interrupt currently executing code, by saving its
+state, then to execute an [interrupt handler](#interrupt-service-routine-isr-or-interrupt-handler)
+(or [Interrupt Service Routine](#interrupt-service-routine-isr-or-interrupt-handler)
+, or [ISR](#interrupt-service-routine-isr-or-interrupt-handler)), in order to
+execute another process.
+
+### Interrupt Service Routine (ISR or interrupt handler)
+Special block of code used for implementing device drivers or transitions between protected modes of operation, such as system calls.
+
 
 ## K
 
