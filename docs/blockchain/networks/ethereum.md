@@ -12,7 +12,6 @@ money. Moreover, it needed a more robust language for application development,
 in order to link real-world assets such as stocks and property, to the
 blockchain.
 
-
 ## Token Standards (ERC)
 
 ERC (Ethereum Request for Comments) help ensure smart contracts remain
@@ -20,13 +19,13 @@ composable, so any token using a standard is compatible with any other
 smart contract using the same standard.
 
 Here are the different ERC:
+
 - [ERC-20 (common token)](#erc-20)
 - [ERC-165](#erc-165)
 - [ERC-721 (NFT)](#erc-721)
 - [ERC-777](#erc-777)
 - [ERC-1155](#erc-1155)
 - [ERC-4626](#erc-4626)
-
 
 ### ERC-20
 
@@ -35,12 +34,12 @@ interface for fungible (interchangeable) tokens, like voting tokens, staking
 tokens or virtual currencies.
 
 Provided functionalities:
+
 - transfer tokens from one account to another
 - get the current token balance of an account
 - get the total supply of the token available on the network
 - approve whether an amount of token from an account can be spent by a
 third-party account
-
 
 ### ERC-721
 
@@ -49,6 +48,7 @@ Nastassia Sachs in January 2018, is a standard interface for Non-Fongible
 Tokens (NFT), like artworks, ENS, lands in a metaverse or positions in DeFi.
 
 Provided functionalities:
+
 - transfer tokens from one account to another
 - get the current token balance of an account
 - get the owner of a specific token
@@ -56,16 +56,13 @@ Provided functionalities:
 - approve whether an amount of token from an account can be spent by a
 third-party account
 
-
 ### ERC-777
 
 _Coming soon_
 
-
 ### ERC-1155
 
 _Coming soon_
-
 
 ### ERC-4626
 
