@@ -18,6 +18,11 @@ another application or service.
 
 ## B
 
+### Basic Input Output System (BIOS)
+[Firmware](#firmware) used to provide runtime services for
+[OS](#operating-system-os) & programs & to perform hardware initialization
+during the bootin process.
+
 ### Bitmask
 Pattern of bits indicating which bits in a second pattern are to be modified.
 E.g.: a binary IP address mask is a bitmask.
@@ -25,6 +30,19 @@ E.g.: a binary IP address mask is a bitmask.
 ### Blockchain
 List of data organized by blocks, managed by a peer-to-peer network, as a
 distributed ledger.
+
+
+## C
+
+### Certificate Authority (CA)
+Entity that stores, signs & issues
+[digital certificates](#digital-certificate).
+
+
+## D
+
+### Digital certificate
+Electronic document used to prove the validity of a [public key](#public-key).
 
 
 ## E
@@ -36,6 +54,12 @@ Standards specifying potential new features or processes for Ethereum.
 Key concept of object-oriented programming, that refers to bundle data &
 methods into a single unit, frequently in the form of class.
 
+## F
+
+### Firmware
+Computer software that provides the low-level control for a device's specific
+hardware.
+
 
 ## I
 
@@ -43,6 +67,22 @@ methods into a single unit, frequently in the form of class.
 Key concept of object-oriented programming, that refers to derive a class from
 other classes.
 
+### Interrupt
+Request for the processor to interrupt currently executing code, by saving its
+state, then to execute an [interrupt handler](#interrupt-service-routine-isr-or-interrupt-handler)
+(or [Interrupt Service Routine](#interrupt-service-routine-isr-or-interrupt-handler)
+, or [ISR](#interrupt-service-routine-isr-or-interrupt-handler)), in order to
+execute another process.
+
+### Interrupt Service Routine (ISR or interrupt handler)
+Special block of code used for implementing device drivers or transitions between protected modes of operation, such as system calls.
+
+
+## K
+
+### Kernel
+Program at core of a computer's OS which has complete control over the system,
+for managing interactions between hardware and software components.
 
 ## L
 
@@ -75,6 +115,9 @@ Person who fund a liquidity pool with assets.
 Paradigm in which prgrams are structured around objects or data fields rather
 than functions or logic.
 
+### Operating system (OS)
+Program that provides interface between user and computer.
+
 
 ## P
 
@@ -85,6 +128,10 @@ the same interface.
 ### Proof of Concept (PoC)
 Key step in the development of a new product or service, where we demonstrate
 its sustainability.
+
+### Public key
+Cryptographic element that is the publicity shared half of an encryption code &
+that can be used only to encode messages.
 
 
 ## R

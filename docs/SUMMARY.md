@@ -32,6 +32,10 @@
   * [Multi-Model](general-programming/databases-paradigms/multi-model.md)
 * [REST](general-programming/rest.md)
 
+## Systems
+
+* [Operating systems](systems/operating-systems.md)
+
 ## Programming languages
 
 * [C](programming-languages/c.md)
