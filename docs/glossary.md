@@ -139,6 +139,10 @@ Program that provides interface between user and computer.
 Collection and analysis of data gathered from open sources to produce
 actionable intelligence.
 
+### Open Web Application Security Project (OWASP)
+
+Online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security
+
 ## P
 
 ### Penetration test (pentest)
