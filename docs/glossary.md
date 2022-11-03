@@ -18,6 +18,11 @@ another application or service.
 
 ## B
 
+### Backdoor
+
+Typically covert method of bypassing normal authentication or encryption in a
+computer, product, embedded device, or its embodiment.
+
 ### Basic Input Output System (BIOS)
 
 [Firmware](#firmware) used to provide runtime services for
