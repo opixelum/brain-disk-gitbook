@@ -4,6 +4,6 @@
 
 See [OWASP](../glossary.md/#owasp)
 
-## Detect application vulnerabilities
+## Application vulnerabilities detection
 
-## Analyze a source code
+## Source code analysis
