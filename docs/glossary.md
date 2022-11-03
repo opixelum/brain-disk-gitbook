@@ -208,3 +208,10 @@ URI subset that permanently designates a resource.
 
 Act of putting money into DeFi applications as a liquidity provider, to earn
 interest, fees or other rewards.
+
+## Z
+
+### Zero-Day (0-Day)
+
+Unpatched security vulnerability that is unknown to the software, hardware or
+firmware developer.
