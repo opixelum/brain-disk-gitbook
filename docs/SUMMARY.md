@@ -38,7 +38,7 @@
 
 ## Systems
 
-* [Operating systems](systems/operating-systems.md)
+* [Operating Systems](systems/operating-systems.md)
 
 ## Programming languages
 
@@ -46,4 +46,4 @@
 
 ## Cybersecurity
 
-* [Introduction to cybersecurity](cybersecurity/introduction.md)
+* [Introduction to Cybersecurity](cybersecurity/introduction.md)
