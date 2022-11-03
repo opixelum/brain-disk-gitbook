@@ -139,8 +139,7 @@ actionable intelligence.
 ### Penetration test (pentest)
 
 Authorized simulated cyberattack on a computer system, performed to evaluate
-the security of the system; this is not to be confused with a vulnerability
-assessment.
+the security of the system.
 
 ### Polymorphism
 
