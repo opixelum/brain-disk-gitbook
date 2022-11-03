@@ -20,6 +20,10 @@
   * [Solidity](blockchain/smart-contracts/solidity.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
 
+## Data Science
+
+* [Introduction to Data Science](data-science/introduction.md)
+
 ## General programming
 
 * [Databases paradigms](general-programming/databases-paradigms)
