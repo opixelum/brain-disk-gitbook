@@ -131,9 +131,16 @@ Program that provides interface between user and computer.
 
 ### Open Source Intelligence (OSINT)
 
-Collection and analysis of data gathered from open sources to produce actionable intelligence.
+Collection and analysis of data gathered from open sources to produce
+actionable intelligence.
 
 ## P
+
+### Penetration test (pentest)
+
+Authorized simulated cyberattack on a computer system, performed to evaluate
+the security of the system; this is not to be confused with a vulnerability
+assessment.
 
 ### Polymorphism
 
