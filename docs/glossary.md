@@ -132,7 +132,8 @@ than functions or logic.
 
 ### Operating system (OS)
 
-Program that provides interface between user and computer.
+System software that manages computer hardware, software resources, and
+provides common services for computer programs.
 
 ### Open Source Intelligence (OSINT)
 
