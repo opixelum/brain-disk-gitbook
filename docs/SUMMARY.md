@@ -15,8 +15,8 @@
   * [Proof of Authority (PoA)](blockchain/consensus/poa.md)
 * [Cryptocurrencies](blockchain/cryptocurrencies)
   * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
-  * [Wrapped tokens](blockchain/cryptocurrencies/wrapped_tokens.md)
-* [Smart contracts](blockchain/smart-contracts/smart_contracts.md)
+  * [Wrapped Tokens](blockchain/cryptocurrencies/wrapped_tokens.md)
+* [Smart Contracts](blockchain/smart-contracts/smart_contracts.md)
   * [Solidity](blockchain/smart-contracts/solidity.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
 
@@ -24,7 +24,7 @@
 
 * [Introduction to Data Science](data-science/introduction.md)
 
-## General programming
+## General Programming
 
 * [Databases paradigms](general-programming/databases-paradigms)
   * [Key-Value](general-programming/databases-paradigms/key-value.md)
@@ -40,7 +40,7 @@
 
 * [Operating Systems](systems/operating-systems.md)
 
-## Programming languages
+## Programming Languages
 
 * [C](programming-languages/c.md)
 
