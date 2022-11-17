@@ -16,6 +16,11 @@ by hiding unnecessary details from the user.
 Mechanism that enables an application or service to access a resource within
 another application or service.
 
+### Application Software
+
+Program designed to do a specific task other than an operation for the computer
+itself,
+
 ## B
 
 ### Backdoor
@@ -186,6 +191,11 @@ which the trade is executed.
 ### Swap
 
 Refers to exchanging one crypto asset to another.
+
+### System Software
+
+Program that manages memory, files, processor, ... It also provides interfaces
+between [application softwares](#application-software) and hardware.
 
 ## U
 
