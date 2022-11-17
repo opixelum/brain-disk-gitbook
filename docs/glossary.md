@@ -19,7 +19,7 @@ another application or service.
 ### Application software
 
 Program designed to do a specific task other than an operation for the computer
-itself,
+itself, like user-oriented tasks. Example: text editor, media player, ...
 
 ## B
 
