@@ -18,7 +18,7 @@ everything on the computer, including the hardware.
 - managing all **computer's peripherals**;
 - managing **files**, **network**, **sound** & **display**.
 
-Then, **application** software let the **user** do **tasks** that may involve
+**Application softwares** let the **user** do **tasks** that may involve
 calls to some system softwares.
 
 But depending on the hardware, an OS can't manage all devices or peripherals.
@@ -69,9 +69,38 @@ Those parameters are copied in ultra-fast memory in the processor, called
 
 ## Kernel
 
-## Booting
+A **kernel** is the **core program** of a computer's OS that has **complete**
+**control over everything** in the system. It is **always resident in memory**.
 
-### Linux
+Its objectives are:
+
+- To establish communication between user level application and hardware;
+- To decide state of incoming processes;
+- To control disk management;
+- To control memory management;
+- To control task management.
+
+### Types of kernel
+
+#### Megalithic
+
+#### Monolithic
+
+#### Micro
+
+#### Hybrid
+
+#### Exo
+
+#### Nano
+
+### Linux kernel
+
+### Windows kernel
+
+## Boot
+
+### Linux booting process
 
 1. Power on
 2. POST
