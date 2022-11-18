@@ -39,9 +39,9 @@ When the interrupt is requested, it runs an **Interrupt Service Routine**
 (or **ISR**).
 
 Since there is a lot of different devices & peripherals, there is multiple ISR.
-That's why we use an **interrupt vector**.
+That's why we use an **interrupt vector table**.
 
-## Interrupt vector
+### Interrupt vector
 
 An interrupt vector stores the **address of an interrupt handler**.
 
