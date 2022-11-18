@@ -31,9 +31,11 @@ When an application software executes a system software, it makes a **system**
 **call**. In order to make one, softwares will use a processor functionality,
 called **interrupt**.
 
+### Interrupts
+
 An interrupt is a request for the processor to **stop currently executing**
 **program in order to execute another one**. After this last program is done,
-it **resumes the stopped program**.
+it **resumes the stopped program**. It is **stored in the processor**.
 
 When the interrupt is requested, it runs an **Interrupt Service Routine**
 (or **ISR**).
@@ -41,16 +43,29 @@ When the interrupt is requested, it runs an **Interrupt Service Routine**
 Since there is a lot of different devices & peripherals, there is multiple ISR.
 That's why we use an **interrupt vector table**.
 
-### Interrupt vector
+### Interrupt vectors
 
-An interrupt vector stores the **address of an interrupt handler**.
+An interrupt vector is a pointer that stores the **address of an interrupt**
+**handler**.
 
 First, it is **initialized by the BIOS** during the booting process. Then, the
 **OS will replace this interrupt handler** by its own one.
 
 Since there is multiple interrupt vector in a system, those are stored in an
 **interrupt vector table**, that associate a list of interrupt handlers with a
-list of interrupt requests.
+list of interrupt requests. It is **stored in the memory**.
+
+### Interrupt requests
+
+On x86 processors, `INT` is the assembly language instruction (or machine
+instruction) that generates an interrupt.
+
+This instruction needs some **parameters** in order to work, such as the number
+or the address of an interrupt, ... For example, an ISR for printing a letter
+on the screen will need the letter to display as a parameter.
+
+Those parameters are copied in ultra-fast memory in the processor, called
+**registers**.
 
 ## Kernel
 
