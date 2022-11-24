@@ -4,14 +4,12 @@
 
 Built by Google engineers, the objectives are:
 
-- Easy to write, similar to a scripting language
+- Easy to write, similar to a scripting language;
 - Easy to learn from another language such as C, Python, ...
-- Compiled language for fast execution
-- Modern language
+- Compiled language for fast execution;
+- Modern language, supporting concurrency, designed for the web of tomorrow.
 
-## Syntax
-
-### Variables declaration
+## Variables declaration
 
 Go is a typed language. You can specified the type of a variable, or let the
 compiler decide for you:
@@ -27,6 +25,8 @@ c := 3
 ```
 
 A variable can't change its type in its scope.
+
+## Functions
 
 ### Functions declaration
 
@@ -133,7 +133,7 @@ func main() {
 }
 ```
 
-### Iterations
+## Iterations
 
 - There is no `while` loop in Go. You can only use `for` loops:
 
@@ -151,7 +151,7 @@ for {
 }
 ```
 
-### Conditions
+## Conditions
 
 - No parenthesis around conditions:
 
