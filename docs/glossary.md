@@ -51,11 +51,28 @@ distributed ledger.
 Entity that stores, signs & issues
 [digital certificates](#digital-certificate).
 
+### Consensus
+
+General agreement. In decentralized systems, it brings nodes back in sync. To
+reach consensus, mechanisms such as proof-of-work, proof-of-stake and more are
+used.
+
 ## D
+
+### Decentralization
+
+Process of distributing or dispersing functions, powers, people or things
+away from a central location or authority.
 
 ### Digital certificate
 
 Electronic document used to prove the validity of a [public key](#public-key).
+
+### Double-spending
+
+Potential flaw in a digital cash scheme in which the same single digital token
+can be spent more than once. It can lead to inflation by creating a new amount
+of copied currency that did not previously exist.
 
 ## E
 
@@ -76,6 +93,12 @@ Computer software that provides the low-level control for a device's specific
 hardware.
 
 ## I
+
+### Inflation
+
+General increase in the price level of goods and services in an economy. It is
+caused by a decrease in the purchasing power of money. This decrease can be
+caused by an increase in the amount of money in circulation (printing money).
 
 ### Inheritance
 

@@ -9,7 +9,7 @@
 * [Networks](blockchain/networks)
   * [Ethereum](blockchain/networks/ethereum/ethereum.md)
   * [Bitcoin](blockchain/networks/bitcoin.md)
-* [Consensus](blockchain/consensus)
+* [Consensus Mechanisms](blockchain/consensus/consensus-mechanisms.md)
   * [Proof of Work (PoW)](blockchain/consensus/pow.md)
   * [Proof of Stake (PoS)](blockchain/consensus/pos.md)
   * [Proof of Authority (PoA)](blockchain/consensus/poa.md)
@@ -19,6 +19,7 @@
 * [Smart Contracts](blockchain/smart-contracts/smart_contracts.md)
   * [Solidity](blockchain/smart-contracts/solidity.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
+* [Important dates & events](blockchain/important-dates-events.md)
 
 ## Data Science
 
@@ -26,6 +27,7 @@
 
 ## General Programming
 
+* [Centralized vs Distributed vs Decentralized System](general-programming/centralized-vs-distributed-vs-decentralized-system.md)
 * [Databases paradigms](general-programming/databases-paradigms)
   * [Key-Value](general-programming/databases-paradigms/key-value.md)
   * [Wide-Column](general-programming/databases-paradigms/wide-column.md)
