@@ -43,6 +43,7 @@
 ## Programming Languages
 
 * [C](programming-languages/c.md)
+* [Go](programming-languages/go.md)
 
 ## Cybersecurity
 
