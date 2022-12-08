@@ -42,10 +42,10 @@
 
 * [Operating Systems](systems/operating-systems.md)
 
-## Programming Languages
+## Languages
 
-* [C](programming-languages/c.md)
-* [Go](programming-languages/go.md)
+* [C](languages/c.md)
+* [Go](languages/go.md)
 
 ## Cybersecurity
 
