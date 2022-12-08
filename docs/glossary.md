@@ -196,6 +196,11 @@ that can be used only to encode messages.
 
 ## R
 
+### Register
+
+Quickly accessible memory location in a CPU that stores data for arithmetic
+operations.
+
 ### Representational State Transfer (REST)
 
 Architectural style for developing web services.
