@@ -44,6 +44,7 @@
 
 ## Languages
 
+* [Assembly](languages/assembly.md)
 * [C](languages/c.md)
 * [Go](languages/go.md)
 
