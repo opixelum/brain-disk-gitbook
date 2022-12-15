@@ -78,6 +78,28 @@ main:
     call scanf
 ```
 
+## Output
+
+`rdi` is used to store the **format** of the output (e.g. `%d`).
+`rsi` is used to store the **value** to be printed.
+`rax` is equal to `1` if we print a **float**, `0` otherwise.
+
+```asm
+extern printf
+
+global main
+
+section .data
+    fmt_print db 'The number is %hhd', 10, 0 ; 10 is the newline character
+    number db 10
+
+main:
+    mov rdi, fmt_print
+    mov rsi, number
+    mov rax, 0
+    call printf
+```
+
 ## Conditions
 
 `cmp` is used to **compare two values**. It subtracts the second value from the
