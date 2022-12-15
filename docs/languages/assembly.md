@@ -128,6 +128,37 @@ main:
     jg      greater
 ```
 
+## Compilation
+
+First, we need to **assemble** the assembly code to get the **object file**:
+
+```bash
+nasm -f elf64 -o file.o file.asm
+```
+
+- `-f elf64` is used to specify the **format** of the object file. `elf64` is
+used for **x86-64**.
+
+- `-o file.o` is used to specify the **object file**.
+
+- The last argument is the **assembly code file**.
+
+Then, we need to **link** the object file to get the **executable**:
+
+```bash
+gcc -m64 -no-pie -o file file.o
+```
+
+- `-m64` is used to specify the **architecture** of the executable. `64` is
+used for **x86-64**.
+
+- `-no-pie` is used to specify that we don't want a **position independent
+executable**.
+
+- `-o file` is used to specify the **executable name** we will create.
+
+- The last argument is the **object file**.
+
 ## Notes
 
 - If `[rax]` is used but no valid memory address is stored in `rax`, there is a
