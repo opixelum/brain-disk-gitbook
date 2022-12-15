@@ -44,6 +44,14 @@ representation**;
 - **float** & **double** are represented using **32 bits** & **64 bits**
 respectively.
 
+## Format
+
+| Format | Data type |
+| ------ | --------- |
+| `%d` | DWORD |
+| `%hd` | WORD |
+| `%hhd` | BYTE |
+
 ## Conditions
 
 `cmp` is used to **compare two values**. It subtracts the second value from the
