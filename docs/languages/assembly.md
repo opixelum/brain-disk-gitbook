@@ -52,6 +52,32 @@ respectively.
 | `%hd` | WORD |
 | `%hhd` | BYTE |
 
+## Input
+
+`rdi` is used to store the **format** of the input (e.g. `%d`).
+`rsi` is used to store the **address** of the variable where the input will be
+stored.
+`rax` is equal to `1` if we scan a **float**, `0` otherwise.
+
+```asm
+extern scanf
+
+global main
+
+section .data
+    fmt_scan: db '%hd', 0 ; 0 is the null terminator (end of string)
+
+section .bss
+    user_input: resb 2 ; resb = reserve bytes for uninitialized data
+
+section .text
+main:
+    mov rdi, fmt_scan 
+    mov rsi, user_input
+    mov rax, 0
+    call scanf
+```
+
 ## Conditions
 
 `cmp` is used to **compare two values**. It subtracts the second value from the
