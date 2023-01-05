@@ -44,6 +44,36 @@ representation**;
 - **float** & **double** are represented using **32 bits** & **64 bits**
 respectively.
 
+## Arrays
+
+- Manual definition:
+
+```asm
+name: type value1, value2, ...
+```
+
+- Automatic definition:
+
+```asm
+name: times number_of_elements type value
+```
+
+Note: ALL elements are initialized to `value`.
+
+- Uninitialized definition:
+
+```asm
+name: res_type number_of_elements
+```
+
+Example:
+
+```asm
+    array1: db 1, 2, 3, 4, 5 ; Define entire array manually
+    array2: times 5 db 0     ; 5 elements of type byte initialized to 0
+    array3: resb 5           ; 5 elements of type byte uninitialized
+```
+
 ## Format
 
 | Format | Data type |
