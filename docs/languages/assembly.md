@@ -54,10 +54,10 @@ respectively.
 
 ## Input
 
-`rdi` is used to store the **format** of the input (e.g. `%d`).
-`rsi` is used to store the **address** of the variable where the input will be
-stored.
-`rax` is equal to `1` if we scan a **float**, `0` otherwise.
+- `rdi` is used to store the **format** of the input (e.g. `%d`).
+- `rsi` is used to store the **address** of the variable where the input will
+be stored.
+- `rax` is equal to `1` if we scan a **float**, `0` otherwise.
 
 ```asm
 extern scanf
@@ -80,9 +80,9 @@ main:
 
 ## Output
 
-`rdi` is used to store the **format** of the output (e.g. `%d`).
-`rsi` is used to store the **value** to be printed.
-`rax` is equal to `1` if we print a **float**, `0` otherwise.
+- `rdi` is used to store the **format** of the output (e.g. `%d`).
+- `rsi` is used to store the **value** to be printed.
+- `rax` is equal to `1` if we print a **float**, `0` otherwise.
 
 ```asm
 extern printf
