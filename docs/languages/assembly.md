@@ -19,7 +19,7 @@ without using assembly. That's why assembly is less used than before.
 | Type | Declaration | Size |
 | ---- | ----------- | ---- |
 | **Byte** | `db` | 1 byte |
-| **Word** | `dw` | 2 bytes |
+| **Word** | `dw` | 2 bytes |
 | **Double word** | `dd` | 4 bytes |
 | **Quadruple word** | `dq` | 8 bytes |
 | **Ten bytes** | `dt` | 10 bytes |
