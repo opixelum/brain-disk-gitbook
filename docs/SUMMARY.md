@@ -38,6 +38,10 @@
   * [Multi-Model](general-programming/databases-paradigms/multi-model.md)
 * [REST](general-programming/rest.md)
 
+## Software Engineering
+
+* [UML](software-engineering/uml.md)
+
 ## Systems
 
 * [Operating Systems](systems/operating-systems.md)
