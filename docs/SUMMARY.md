@@ -38,9 +38,9 @@
   * [Multi-Model](general-programming/databases-paradigms/multi-model.md)
 * [REST](general-programming/rest.md)
 
-## Software Engineering
+## Documentation
 
-* [Unified Modeling Language (UML)](software-engineering/uml.md)
+* [Unified Modeling Language (UML)](documentation/uml.md)
 
 ## Systems
 
