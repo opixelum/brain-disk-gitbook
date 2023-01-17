@@ -40,7 +40,7 @@
 
 ## Software Engineering
 
-* [UML](software-engineering/uml.md)
+* [Unified Modeling Language (UML)](software-engineering/uml.md)
 
 ## Systems
 

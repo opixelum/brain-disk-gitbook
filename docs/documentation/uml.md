@@ -1,4 +1,4 @@
-# UML
+# Unified Modeling Language (UML)
 
 ## Introduction
 
