@@ -119,4 +119,4 @@ interface IDiamondCut is IDiamond {
 ## References
 
 - [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535)
-- [EIP-2535: A standard for organizing and upgrading a modular smart contract system](https://soliditydeveloper.com/eip-2535)
+- [A standard for organizing and upgrading a modular smart contract system](https://soliditydeveloper.com/eip-2535)
