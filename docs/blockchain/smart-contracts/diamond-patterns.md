@@ -1,4 +1,4 @@
-# Diamond Pattern (smart contract)
+# Diamond Pattern
 
 ## Introduction
 
