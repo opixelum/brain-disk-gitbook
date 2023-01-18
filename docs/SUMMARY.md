@@ -17,7 +17,7 @@
   * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
   * [Wrapped Tokens](blockchain/cryptocurrencies/wrapped_tokens.md)
 * [Smart Contracts](blockchain/smart-contracts/smart_contracts.md)
-  * [Diamond Patterns](blockchain/smart-contracts/diamond-patterns.md)
+  * [Diamond Patterns](blockchain/smart-contracts/diamond-pattern.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
 * [Important dates & events](blockchain/important-dates-events.md)
 
