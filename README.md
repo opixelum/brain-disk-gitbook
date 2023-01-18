@@ -9,12 +9,12 @@ provide your knowledge to the world.
 
 You can find cheat sheets about:
 
-- [Blockchain](blockchain/README.md)
-- [Data Science](data-science/README.md)
-- [Documentation](documentation/README.md)
-- [Systems](systems/README.md)
-- [Languages](languages/README.md)
-- [Cybersecurity](cybersecurity/README.md)
+- [Blockchain](docs/blockchain)
+- [Data Science](docs/data-science)
+- [Documentation](docs/documentation)
+- [Systems](docs/systems)
+- [Languages](docs/languages)
+- [Cybersecurity](docs/cybersecurity)
 - and more in the future...
 
 **Feel free to contribute** to this project by creating a pull request on
