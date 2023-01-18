@@ -25,4 +25,3 @@ Please note that this project is **fairly new** and is **still in**
 means that I'm planning to add content to those pages). If you find any errors
 or have any suggestions, please create an issue on
 [GitHub](https://github.com/opixelum/brain-disk/issues/new).
-
