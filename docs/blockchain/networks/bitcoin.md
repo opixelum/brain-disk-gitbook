@@ -1,3 +1,3 @@
 # Bitcoin
 
-_Coming soon_
+*Coming soon...*

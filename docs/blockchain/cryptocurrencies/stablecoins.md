@@ -1,3 +1,3 @@
 # Stablecoins
 
-_Coming soon_
+*Coming soon...*

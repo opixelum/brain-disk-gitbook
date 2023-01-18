@@ -1,3 +1,4 @@
 # Proof of Authority (PoA)
 
-_Coming soon_
+*Coming soon...*
+
