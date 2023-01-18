@@ -2,19 +2,19 @@
 
 ## **The most powerful data storage device is in your head.**
 
-Brain disk is a place where you can find **cheat sheets** about anything I've
+Brain Disk is a place where you can find **cheat sheets** about anything I've
 learned in **IT**. It's a place where I store my knowledge in **computer**
 **science** and share it with the world, but also a place where **YOU** can
 provide your knowledge to the world.
 
 You can find cheat sheets about:
 
-- [Blockchain](blockchain/README.md)
-- [Data Science](data-science/README.md)
-- [Documentation](documentation/README.md)
-- [Systems](systems/README.md)
-- [Languages](languages/README.md)
-- [Cybersecurity](cybersecurity/README.md)
+- [Blockchain](https://opixelum.gitbook.io/brain-disk/blockchain)
+- [Data Science](https://opixelum.gitbook.io/brain-disk/data-science)
+- [Documentation](https://opixelum.gitbook.io/brain-disk/documentation)
+- [Systems](https://opixelum.gitbook.io/brain-disk/systems)
+- [Languages](https://opixelum.gitbook.io/brain-disk/languages)
+- [Cybersecurity](https://opixelum.gitbook.io/brain-disk/cybersecurity)
 - and more in the future...
 
 **Feel free to contribute** to this project by creating a pull request on

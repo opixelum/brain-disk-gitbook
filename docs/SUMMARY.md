@@ -1,6 +1,6 @@
 # Summary
 
-* [What is "Brain disk"?](README.md)
+* [What is "Brain Disk"?](README.md)
 * [Glossary](glossary.md)
 
 ## Blockchain
