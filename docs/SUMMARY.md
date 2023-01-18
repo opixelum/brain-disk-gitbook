@@ -51,7 +51,7 @@
 * [Assembly](languages/assembly.md)
 * [C](languages/c.md)
 * [Go](languages/go.md)
-  * [Solidity](languages/solidity.md)
+* [Solidity](languages/solidity.md)
 
 ## Cybersecurity
 
