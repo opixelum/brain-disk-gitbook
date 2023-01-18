@@ -108,7 +108,14 @@ will cost more gas.
 - Use `unchecked` blocks to avoid overflow checks in for loops.
 
   ```solidity
+  // Wrong
+  for (uint i = 0; i < 100; i++) {
+      // Do something
+  }
+
+  // Right
   for (uint i; i < 100;) {
+      // Do something
       unchecked {
           i++;
       }
