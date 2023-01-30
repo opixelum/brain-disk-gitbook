@@ -25,6 +25,7 @@
 ## Data Science
 
 * [Introduction to Data Science](data-science/introduction.md)
+* [Data Mining](data-science/data-mining.md)
 
 ## General Programming
 
