@@ -15,7 +15,7 @@ that delegates all calls to **facets**.
 - **Facets are contracts or libraries** that implements functions that can be
 called by the diamond.
 
-- **Diamond are stateful**, meaning that it can store data, meanwhile the
+- **A diamond is stateful**, meaning that it can store data, meanwhile the
 **facets are stateless**. It can read & write to the storage of the diamond.
 
 - A special facet is the **loupe facet**. It provides **introspection**
