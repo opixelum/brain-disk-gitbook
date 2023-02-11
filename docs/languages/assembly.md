@@ -201,3 +201,4 @@ stored in `rax`. If `rax` is `0x1000`, then `[rax + 5]` is the value stored at
 ## References
 
 - [Tutorials point](https://www.tutorialspoint.com/assembly_programming)
+- [x86_64 Linux Assembly #2 - "Hello, World!" Breakdown](https://www.youtube.com/watch?v=BWRR3Hecjao)
