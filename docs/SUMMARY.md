@@ -3,6 +3,10 @@
 * [What is "Brain Disk"?](README.md)
 * [Glossary](glossary.md)
 
+## Artificial Intelligence
+
+* [Introduction to Artificial Intelligence](artificial-intelligence/introduction.md)
+
 ## Blockchain
 
 * [Infrastructure](blockchain/infrastructure.md)
