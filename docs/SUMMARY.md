@@ -7,6 +7,7 @@
 
 * [Introduction to Artificial Intelligence](artificial-intelligence/introduction.md)
 * [Machine Learning](artificial-intelligence/machine-learning.md)
+* [Neural Networks](artificial-intelligence/neural-networks.md)
 
 ## Blockchain
 
