@@ -86,6 +86,8 @@ Its objectives are:
 
 #### Monolithic
 
+![Monolithic kernel diagram](../.gitbook/assets/systems/kernels/monolithic-kernel-diagram.svg)
+
 - All OS services operate in the kernel;
 - Every services are called through system calls.
 
@@ -108,8 +110,11 @@ Its objectives are:
 
 #### Micro
 
+![Micro kernel diagram](../.gitbook/assets/systems/kernels/micro-kernel-diagram.svg)
+
 - OS services are implemented into different spaces (kernel & user space for
   example);
+- Services are called through IPC (Inter Process Communication) mechanisms;
 - Minimalist approach.
 
 **Pros:**
@@ -132,6 +137,8 @@ Its objectives are:
 - K42.
 
 #### Hybrid
+
+![Hybrid kernel diagram](../.gitbook/assets/systems/kernels/hybrid-kernel-diagram.svg)
 
 - Mix of monolithic & micro kernels;
 - Micro kernel with some non-essential code in kernel space (like networking
