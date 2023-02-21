@@ -27,8 +27,8 @@ provided by the manufacturer of the device.
 
 ## System calls
 
-- Requests from softwares in user space to OS in kernel space;
-- Allows softwares to use OS services (memory management, file management,
+- Requests from softwares in **user space** to OS in **kernel space**;
+- Allows softwares to use **OS services** (memory management, file management,
 etc);
 - [**Interrupts**](#interrupts) current program execution to execute an OS
 service;
