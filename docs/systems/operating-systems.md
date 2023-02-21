@@ -86,6 +86,19 @@ Its objectives are:
 
 #### Monolithic
 
+- All OS services operate in the kernel;
+- Every services are called through system calls;
+
+**Pros:**
+
+- Fast because processes are in the same space;
+
+**Cons:**
+
+- If one service crashes, the whole OS crashes;
+- Hard to maintain due to the size of the kernel;
+- Adding a new service requires to modify the entire kernel.
+
 #### Micro
 
 #### Hybrid
@@ -109,3 +122,7 @@ Its objectives are:
 5. GRUB
 6. Kernel
 7. Systemd (Init)
+
+## References
+
+- [What is Kernel and different types of Kernels?](https://www.tutorialspoint.com/what-is-kernel-and-different-types-of-kernels)
