@@ -99,6 +99,13 @@ Its objectives are:
 - Hard to maintain due to the size of the kernel;
 - Adding a new service requires to modify the entire kernel.
 
+**Examples:**
+
+- Unix;
+- Linux;
+- Open VMS;
+- XTS-400.
+
 #### Micro
 
 - OS services are implemented into different spaces (kernel & user space for
@@ -118,10 +125,11 @@ Its objectives are:
 
 **Examples:**
 
-- Unix;
-- Linux;
-- Open VMS;
-- XTS-400.
+- Mach;
+- L4;
+- AmigaOS;
+- Minix;
+- K42.
 
 #### Hybrid
 
