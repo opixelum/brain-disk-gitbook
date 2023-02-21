@@ -1,5 +1,7 @@
 # Brain Disk
 
+[**Click here to go to Brain Disk website**](https://opixelum.gitbook.io/brain-disk)
+
 ## **The most powerful data storage device is in your head.**
 
 Brain disk is a place where you can find **cheat sheets** about anything I've
