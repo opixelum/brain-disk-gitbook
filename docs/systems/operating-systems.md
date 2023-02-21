@@ -27,9 +27,11 @@ provided by the manufacturer of the device.
 
 ## System calls
 
-When an application software executes a system software, it makes a **system**
-**call**. In order to make one, softwares will use a processor functionality,
-called **interrupt**.
+- Requests from softwares in user space to OS in kernel space;
+- Allows softwares to use OS services (memory management, file management,
+etc);
+- [**Interrupts**](#interrupts) current program execution to execute an OS
+service;
 
 ### Interrupts
 
@@ -83,6 +85,8 @@ Its objectives are:
 ### Types of kernel
 
 #### Megalithic
+
+- Whole OS in kernel space;
 
 #### Monolithic
 
@@ -180,6 +184,7 @@ Its objectives are:
 
 ## Sources
 
+- [Wikipedia - System call](https://en.wikipedia.org/wiki/System_call)
 - [Tutorialspoint - What is Kernel and different types of Kernels?](https://www.tutorialspoint.com/what-is-kernel-and-different-types-of-kernels)
 - [Geeks for Geeks - Kernel in Operating System](https://www.geeksforgeeks.org/kernel-in-operating-system/)
 - [Wikipedia - Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_%28operating_system%29)
