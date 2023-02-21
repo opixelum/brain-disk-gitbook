@@ -123,7 +123,6 @@ Its objectives are:
 - Open VMS;
 - XTS-400.
 
-
 #### Hybrid
 
 #### Exo
