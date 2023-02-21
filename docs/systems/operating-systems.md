@@ -101,6 +101,29 @@ Its objectives are:
 
 #### Micro
 
+- OS services are implemented into different spaces (kernel & user space for
+  example);
+- Minimalist approach.
+
+**Pros:**
+
+- Stable because if a service in user space crashes, the kernel is not
+  affected;
+- Easy to maintain due to the small size of the kernel.
+
+**Cons:**
+
+- Slower because there are lot of context switches between kernel & user
+  space.
+
+**Examples:**
+
+- Unix;
+- Linux;
+- Open VMS;
+- XTS-400.
+
+
 #### Hybrid
 
 #### Exo
@@ -126,3 +149,4 @@ Its objectives are:
 ## References
 
 - [What is Kernel and different types of Kernels?](https://www.tutorialspoint.com/what-is-kernel-and-different-types-of-kernels)
+- [Kernel in Operating System](https://www.geeksforgeeks.org/kernel-in-operating-system/)
