@@ -133,6 +133,24 @@ Its objectives are:
 
 #### Hybrid
 
+- Mix of monolithic & micro kernels;
+- Micro kernel with some non-essential code in kernel space (like networking
+  or file system).
+
+**Pros:**
+
+- Tries to get the best of both worlds.
+
+**Cons:**
+
+- More complex than micro kernels.
+
+**Examples:**
+
+- Windows NT;
+- Netware;
+- BeOS.
+
 #### Exo
 
 #### Nano
