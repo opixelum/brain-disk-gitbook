@@ -180,6 +180,6 @@ Its objectives are:
 
 ## References
 
-- [What is Kernel and different types of Kernels?](https://www.tutorialspoint.com/what-is-kernel-and-different-types-of-kernels)
-- [Kernel in Operating System](https://www.geeksforgeeks.org/kernel-in-operating-system/)
-- [Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_%28operating_system%29)
+- [Tutorialspoint - What is Kernel and different types of Kernels?](https://www.tutorialspoint.com/what-is-kernel-and-different-types-of-kernels)
+- [Geeks for Geeks - Kernel in Operating System](https://www.geeksforgeeks.org/kernel-in-operating-system/)
+- [Wikipedia - Kernel (operating system)](https://en.wikipedia.org/wiki/Kernel_%28operating_system%29)
