@@ -25,11 +25,11 @@ But depending on the hardware, an OS can't manage all devices or peripherals.
 That's why the computer needs **drivers**, which is a system software, often
 provided by the manufacturer of the device.
 
-## System calls
+## System call
 
-- Requests from softwares in **user space** to OS in **kernel space**;
-- Allows softwares to use **OS services** (memory management, file management,
-etc);
+- Request from software in **user space** to OS in **kernel space**;
+- Allows software to use **OS service** (memory management, file management
+ etc);
 - [**Interrupts**](#interrupts) current program execution to execute an OS
 service;
 
