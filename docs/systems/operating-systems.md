@@ -87,11 +87,11 @@ Its objectives are:
 #### Monolithic
 
 - All OS services operate in the kernel;
-- Every services are called through system calls;
+- Every services are called through system calls.
 
 **Pros:**
 
-- Fast because processes are in the same space;
+- Fast because processes are in the same space.
 
 **Cons:**
 
