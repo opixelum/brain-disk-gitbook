@@ -178,7 +178,7 @@ Its objectives are:
 6. Kernel
 7. Systemd (Init)
 
-## References
+## Sources
 
 - [Tutorialspoint - What is Kernel and different types of Kernels?](https://www.tutorialspoint.com/what-is-kernel-and-different-types-of-kernels)
 - [Geeks for Geeks - Kernel in Operating System](https://www.geeksforgeeks.org/kernel-in-operating-system/)
