@@ -45,6 +45,7 @@
   * [Graph](general-programming/databases-paradigms/graph.md)
   * [Search](general-programming/databases-paradigms/search.md)
   * [Multi-Model](general-programming/databases-paradigms/multi-model.md)
+* [Make](general-programming/make.md)
 * [REST](general-programming/rest.md)
 
 ## Documentation
