@@ -435,6 +435,36 @@ executed before a function executes.
 The "**_;**" in the ***onlyOwner*** modifier is what tells the code to execute
 the function at a given time (in this eg: ***renounceOwnership()***).
 
+### Function overriding
+
+Override a base function by inheriting from a parent contract.
+
+- Base function must be **marked as *virtual***.
+- Overriding function must have the **same function signature** as the base
+function.
+- Overriding function must **specify** which **parent contract** it is
+overriding from.
+
+```sol
+contract Base1 {
+    function foo() virtual public pure returns (string memory) {
+        return "Base1";
+    }
+}
+
+contract Base2 {
+    function foo() virtual public pure returns (string memory) {
+        return "Base2";
+    }
+}
+
+contract Child is Base1, Base2 {
+    function foo() override(Base1, Base2) pure public returns (string memory) {
+        return "Child";
+    }
+}
+```
+
 ## Type casting
 
 Let us convert between data types:
