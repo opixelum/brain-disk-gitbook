@@ -14,10 +14,10 @@ to run an application.
 
 ### Image commands
 
-| Command | Alias | Description |
-|-------- | ----- | ----------- |
-| `docker image ls` | `docker images` | List all images. |
-| `docker image build <dockerfile>` | | Build an image from a Dockerfile. |
-| `docker image rm <image>` | | Remove an image. |
-| `docker image tag <image> <tag>` | | Create an alias for an image. |
-| `docker image pull <image>` | `docker pull <image>` | Pull an image from the Docker Hub. |
+| Command | Description |
+|-------- | ----------- |
+| `docker images` | List all images. |
+| `docker image build <dockerfile>` | Build an image from a Dockerfile. |
+| `docker image rm <image>` | Remove an image. |
+| `docker image tag <image> <tag>` | Create an alias for an image. |
+| `docker pull <image>` | Pull an image from the Docker Hub. |
