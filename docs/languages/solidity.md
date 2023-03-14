@@ -465,6 +465,20 @@ contract Child is Base1, Base2 {
 }
 ```
 
+### Function signature
+
+- **First 4 bytes** of the **keccak-256 hash** of the **concatenation** of the
+**function name** & its **ordered list of parameters types**;
+- AKA **function selector**.
+
+```sol
+function foo(int8 a, uint256 b) public returns (bool) {
+    // Function implementation
+}
+
+bytes4 functionSignature = bytes4(keccak256("foo(int8,uint256)"));
+```
+
 ## Type casting
 
 Let us convert between data types:
