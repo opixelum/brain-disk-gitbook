@@ -25,12 +25,24 @@ which messages are sent to which objects and in what order.
 
 ![Example of a sequence diagram](../.gitbook/assets/sequence-diagram.png)
 
+### Package Diagram
+
+A package diagram shows the packages of a system and the relationships between
+them.
+
+![Example of a package diagram](../.gitbook/assets/package-diagram.png)
+
 ### Use Case Diagram
 
-A use case diagram shows the actors of a system and the use cases of the
-system. It shows the relationship between the actors and the use cases.
+- Identify main & secondary actors;
+- Define functions actors will use;
+- Actors can be real persons or other systems;
+- For a system, there are as many use case diagrams as package programs.
 
 ![Example of a use case diagram](../.gitbook/assets/use-case-diagram.png)
+
+On the left: main actors. On the right: secondary actors;
+
 
 ### Activity Diagram
 
@@ -46,9 +58,3 @@ between those states.
 
 ![Example of a state machine diagram](../.gitbook/assets/state-machine-diagram.png)
 
-### Package Diagram
-
-A package diagram shows the packages of a system and the relationships between
-them.
-
-![Example of a package diagram](../.gitbook/assets/package-diagram.png)
