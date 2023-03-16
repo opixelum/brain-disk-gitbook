@@ -3,6 +3,10 @@
 * [What is "Brain Disk"?](README.md)
 * [Glossary](glossary.md)
 
+## Algorithmic
+
+* [Searching](algorithmic/searching.md)
+
 ## Artificial Intelligence
 
 * [Introduction to Artificial Intelligence](artificial-intelligence/introduction.md)
