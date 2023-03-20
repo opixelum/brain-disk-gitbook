@@ -116,6 +116,26 @@ interface IDiamondCut is IDiamond {
 }
 ```
 
+## How function calls work
+
+1. Caller call a function to the diamond
+2. The EVM checks that the caller function is defined in the diamond.
+3. If yes, the caller function is executed & the result is returned to the
+caller.
+4. If not, the fallback function of the diamond is executed. This function
+iterates through a mapping defined in the diamond. This mapping maps function
+selectors to the address of the facet which contains the definition of the
+caller function.
+5. If the caller function isn't defined in any facet of the diamond, the call
+is reverted.
+6. If it's defined, the diamond **delegates the call** to the corresponding
+facet.
+7. Once the caller function is executed in the facet, the result is returned to
+the diamond.
+8. Finally, the result is returned to the caller.
+
+![Diamond pattern call sequence diagram](../../.gitbook/assets/diamond-pattern-call-sequence-diagram.svg)
+
 ## References
 
 - [EIP-2535](https://eips.ethereum.org/EIPS/eip-2535)
