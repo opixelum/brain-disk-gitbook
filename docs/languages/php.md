@@ -17,6 +17,7 @@ class User
         public string $lastName
         public readonly string $birthDate // can be set only in constructor
         public ?string $email = null // optional attribute
+        private string $password // can be set only in class
     ) {}
 }
  ```
