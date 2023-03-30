@@ -13,10 +13,10 @@ class User
 {
     public function __construct
     (
-        public string $firstName
-        public string $lastName
-        public readonly string $birthDate // can be set only in constructor
-        private string $password // can be set only in class
+        public string $firstName,
+        public string $lastName,
+        public readonly string $birthDate, // can be set only in constructor
+        private string $password, // can be set only in class or in constructor
         public ?string $email = null // optional attribute
     ) {}
 }
@@ -25,8 +25,9 @@ class User
 ## Objects
 
 - Object name in ***camelCase***.
-- When instantiating an object, **named parameters** is useful for changing the
-order of the parameters.
+- Object parameters should be ***ordered***.
+- For unordered parameters, use named parameters. Every parameter after the
+first named one must be named too.
 
 *index.php:*
 
@@ -40,7 +41,7 @@ $john = new User
     "John",
     "Doe",
     password: "A_c0mp|ex_p@s5wOrd", // unordered parameter
-    "1990-01-01",
-    "jdoe@email.com"
+    birthDate: "1990-01-01",
+    email: "jdoe@email.com"
 );
 ```
