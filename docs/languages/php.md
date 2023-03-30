@@ -57,3 +57,44 @@ $john = new User(
     email: "jdoe@email.com"
 );
 ```
+
+## Inheritance
+
+- `extends` keyword for inheriting from a class.
+- `parent` keyword for calling parent class methods.
+- `self` keyword for calling current class methods.
+- `static` keyword for calling child class methods.
+
+*Vehicle.php:*
+
+```php
+<?php
+
+class Vehicle {
+    public function __construct(
+        public string $brand,
+        public string $color
+    ) {}
+}
+```
+
+*Car.php:*
+
+```php
+<?php
+
+require_once "./Vehicle.php";
+
+class Car extends Vehicle {
+    public function __construct(
+        string $brand,
+        string $color,
+        public int $numberOfSeats
+    ) {
+        parent::__construct(brand: $brand, color: $color);
+    }
+}
+```
+
+Note that we can omit the visibility of the attributes inherited for the
+constructor parameters.
