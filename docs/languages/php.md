@@ -24,10 +24,8 @@
 
 ```php
 <?php
-class User
-{
-    public function __construct
-    (
+class User {
+    public function __construct(
         public string $firstName,
         public string $lastName,
         public readonly string $birthDate, // can be set only in constructor
@@ -51,8 +49,7 @@ first named one must be named too.
 
 require_once "./User.php";
 
-$john = new User
-(
+$john = new User(
     "John",
     "Doe",
     password: "A_c0mp|ex_p@s5wOrd", // unordered parameter
