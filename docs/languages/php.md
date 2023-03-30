@@ -1,5 +1,11 @@
 # PHP
 
+## Visibility
+
+- **Public**: Visible everywhere;
+- **Protected:** Visible only in class and in classes that extend it;
+- **Private:** Visible only in class.
+
 ## Classes
 
 - Class name in ***PascalCase***.
