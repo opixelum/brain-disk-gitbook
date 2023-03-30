@@ -84,3 +84,7 @@
 * [Reverse Engineering](cybersecurity/reverse-engineering.md)
 * [Steganography](cybersecurity/stenagography.md)
 * [Web Security](cybersecurity/web.md)
+
+## Programming paradignms
+
+* [Object-Oriented Programming (OOP)](programming-paradigms/oop.md)
