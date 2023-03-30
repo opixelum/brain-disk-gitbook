@@ -1,5 +1,14 @@
 # PHP
 
+## Types
+
+| Type     | Description           |
+|----------|-----------------------|
+| `int`    | Integer               |
+| `float`  | Floating point number |
+| `string` | String                |
+| `bool`   | Boolean               |
+
 ## Visibility
 
 - **Public**: Visible everywhere;
