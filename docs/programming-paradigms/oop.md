@@ -13,6 +13,10 @@
 - A class can inherit attributes and methods from another class.
 - Private attributes and methods are not inherited.
 
+## Composition
+
+- A class can contain objects of other classes.
+
 ## Encapsulation
 
 ## Abstraction
