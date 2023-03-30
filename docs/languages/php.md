@@ -16,8 +16,8 @@ class User
         public string $firstName
         public string $lastName
         public readonly string $birthDate // can be set only in constructor
-        public ?string $email = null // optional attribute
         private string $password // can be set only in class
+        public ?string $email = null // optional attribute
     ) {}
 }
  ```
@@ -25,6 +25,8 @@ class User
 ## Objects
 
 - Object name in ***camelCase***.
+- When instantiating an object, **named parameters** is useful for changing the
+order of the parameters.
 
 *index.php:*
 
@@ -33,5 +35,12 @@ class User
 
 require_once('./User.php');
 
-$john = new User("John", "Doe");
+$john = new User
+(
+    "John",
+    "Doe",
+    password: "A_c0mp|ex_p@s5wOrd", // unordered parameter
+    "1990-01-01",
+    "jdoe@email.com"
+);
 ```
