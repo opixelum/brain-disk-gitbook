@@ -21,4 +21,9 @@
 
 ## Abstraction
 
+- Abstract classes cannot be instantiated.
+- Abstract classes must be extended.
+- Allow to declare methods without implementation. These methods must be
+implemented in the child class.
+
 ## Polymorphism
