@@ -34,7 +34,7 @@ first named one must be named too.
 ```php
 <?php
 
-require_once("./User.php");
+require_once "./User.php";
 
 $john = new User
 (
