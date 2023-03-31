@@ -16,7 +16,9 @@
 
 ## Composition
 
-- A class can contain objects of other classes.
+- A class can contain objects of other classes as attributes.
+- We can "inject" dependencies by requiring an argument as an instance of
+another class.
 
 ## Encapsulation
 
