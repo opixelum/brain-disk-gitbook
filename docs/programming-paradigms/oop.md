@@ -27,3 +27,5 @@
 implemented in the child class.
 
 ## Polymorphism
+
+- Change the behaviour of an extended class by overriding methods.
