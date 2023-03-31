@@ -98,3 +98,31 @@ class Car extends Vehicle {
 
 Note that we can omit the visibility of the attributes inherited for the
 constructor parameters.
+
+## Namespaces
+
+- Way to group related classes;
+- Declared at the top of the file, before any other code;
+- Prevents name collisions;
+- Prevents usage of `require_once` or `include_once`.
+
+*Soldier.php:*
+
+```php
+<?php
+
+namespace Characters;
+
+class Soldier extends Character {
+    // Rest of the code...
+```
+
+*index.php:*
+
+```php
+<?php
+
+use Characters\Solider;
+
+// Rest of the code...
+```
