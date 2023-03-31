@@ -4,6 +4,15 @@
 
 - Blueprints for creating objects.
 
+## Abstract Classes
+
+- The purpose is to provide a common definition of a base class that multiple
+derived classes can share;
+- Allow to declare methods without implementation. These methods must be
+implemented in the child class;
+- Abstract classes cannot be instantiated;
+- Abstract classes must be extended.
+
 ## Objects
 
 - Instances of a class.
