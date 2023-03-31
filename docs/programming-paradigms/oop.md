@@ -11,6 +11,7 @@
 ## Inheritance
 
 - A class can inherit attributes and methods from another class.
+- The parent class is extended, and child class extends the parent.
 - Private attributes and methods are not inherited.
 
 ## Composition
