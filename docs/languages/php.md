@@ -126,3 +126,24 @@ use Characters\Solider;
 
 // Rest of the code...
 ```
+
+## Traits
+
+- Way to group related methods for any class.
+
+*Publication.php:*
+
+```php
+<?php
+
+trait Publication {
+    public function publish() {
+        echo "Publishing...";
+    }
+    
+    // Other methods...
+}
+```
+
+Then we can use it in any class. For this example, we can publish a book, an
+article, a blog post, a picture on Instagram, a video on YouTube, etc.
