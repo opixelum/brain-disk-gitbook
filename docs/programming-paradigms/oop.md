@@ -8,6 +8,12 @@
 
 - Instances of a class.
 
+## Interfaces
+
+- A class can implement multiple interfaces;
+- Interfaces contain only abstract methods (methods without implementation);
+- Interfaces cannot contain attributes.
+
 ## Inheritance
 
 - A class can inherit attributes and methods from another class.
