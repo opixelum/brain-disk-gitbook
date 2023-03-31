@@ -19,6 +19,8 @@
 
 ## Encapsulation
 
+- Set visibility to attributes & methods.
+
 ## Abstraction
 
 - Abstract classes cannot be instantiated.
