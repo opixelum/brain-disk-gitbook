@@ -41,6 +41,7 @@
 ## Programming
 
 * [Centralized vs Distributed vs Decentralized System](programming/centralized-vs-distributed-vs-decentralized-system.md)
+* [Data Structures](programming/data-structures.md)
 * [Databases paradigms](programming/databases-paradigms)
   * [Key-Value](programming/databases-paradigms/key-value.md)
   * [Wide-Column](programming/databases-paradigms/wide-column.md)
