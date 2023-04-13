@@ -13,7 +13,7 @@ You can find cheat sheets about:
 - [Data Science](https://opixelum.gitbook.io/brain-disk/data-science)
 - [Documentation](https://opixelum.gitbook.io/brain-disk/documentation)
 - [Systems](https://opixelum.gitbook.io/brain-disk/systems)
-- [Languages](https://opixelum.gitbook.io/brain-disk/languages)
+- [Programming](https://opixelum.gitbook.io/brain-disk/programming)
 - [Cybersecurity](https://opixelum.gitbook.io/brain-disk/cybersecurity)
 - and more in the future...
 
