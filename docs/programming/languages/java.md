@@ -43,6 +43,19 @@
   constructor, and it must call one of the parent's constructors using the
   `super` keyword.
 
+### Overriding methods
+
+- Use the `@Override` annotation to override a method.
+
+```java
+public class Child extends Parent {
+  @Override
+  public void method() {
+    // method() is already defined in Parent. We're overriding it.
+  }
+}
+```
+
 ## References
 
 - [Java (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
