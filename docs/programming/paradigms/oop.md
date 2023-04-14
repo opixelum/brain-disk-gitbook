@@ -25,9 +25,13 @@ implemented in the child class;
 
 ## Inheritance
 
-- A class can inherit attributes and methods from another class.
-- The parent class is extended, and child class extends the parent.
-- Private attributes and methods are not inherited.
+- A class can inherit attributes and methods from another class;
+- The parent class is extended, and child class extends the parent;
+- Private attributes and methods are not inherited;
+- Specialization is achieved by extending a class. The extending class is called
+  child;
+- Generalization is achieved by combining classes into another one. The combined
+  class is called parent.
 
 ## Composition
 
