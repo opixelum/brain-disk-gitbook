@@ -57,6 +57,8 @@
   * [Java](programming/languages/java.md)
   * [Solidity](programming/languages/solidity.md)
 * [Make](programming/make.md)
+* [Paradigms](programming/paradigms)
+  * [Object-Oriented Programming (OOP)](programming/paradigms/oop.md)
 * [REST](programming/rest.md)
 
 ## Documentation
@@ -84,10 +86,6 @@
 * [Reverse Engineering](cybersecurity/reverse-engineering.md)
 * [Steganography](cybersecurity/stenagography.md)
 * [Web Security](cybersecurity/web.md)
-
-## Programming paradignms
-
-* [Object-Oriented Programming (OOP)](programming-paradigms/oop.md)
 
 ## Soft Skills
 
