@@ -33,7 +33,7 @@
 - `final` classes cannot be extended;
 - Every class in Java inherits from `Object`;
 - Multiple inheritance is not supported.
-- 
+
 ### Constructors in inheritance
 
 - If parent hasn't any constructor, child can define its own or not;
