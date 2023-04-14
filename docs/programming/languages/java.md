@@ -27,6 +27,22 @@
 - Desktop apps;
 - Client-server web apps.
 
+## Inheritance
+
+- Inherit from a class using the `extends` keyword;
+- `final` classes cannot be extended;
+- Every class in Java inherits from `Object`;
+- Multiple inheritance is not supported.
+- 
+### Constructors in inheritance
+
+- If parent hasn't any constructor, child can define its own or not;
+- If no constructor is defined in both, the default constructor of each class is
+  called;
+- If parent has one or more constructors, child must define at least one
+  constructor, and it must call one of the parent's constructors using the
+  `super` keyword.
+
 ## References
 
 - [Java (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
