@@ -54,6 +54,7 @@
   * [Assembly](programming/languages/assembly.md)
   * [C](programming/languages/c.md)
   * [Go](programming/languages/go.md)
+  * [Java](programming/languages/java.md)
   * [Solidity](programming/languages/solidity.md)
 * [Make](programming/make.md)
 * [REST](programming/rest.md)
