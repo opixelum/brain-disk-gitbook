@@ -87,3 +87,7 @@
 ## Programming paradignms
 
 * [Object-Oriented Programming (OOP)](programming-paradigms/oop.md)
+
+## Soft Skills
+
+* [Project Management](soft-skills/project-management.md)
