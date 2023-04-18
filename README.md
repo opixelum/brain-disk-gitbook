@@ -15,7 +15,7 @@ You can find cheat sheets about:
 - [Data Science](docs/data-science)
 - [Documentation](docs/documentation)
 - [Systems](docs/systems)
-- [Languages](docs/languages)
+- [Programming](docs/programming)
 - [Cybersecurity](docs/cybersecurity)
 - and more in the future...
 

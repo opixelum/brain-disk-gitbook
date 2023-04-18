@@ -38,19 +38,28 @@
 * [Introduction to Data Science](data-science/introduction.md)
 * [Data Mining](data-science/data-mining.md)
 
-## General Programming
+## Programming
 
-* [Centralized vs Distributed vs Decentralized System](general-programming/centralized-vs-distributed-vs-decentralized-system.md)
-* [Databases paradigms](general-programming/databases-paradigms)
-  * [Key-Value](general-programming/databases-paradigms/key-value.md)
-  * [Wide-Column](general-programming/databases-paradigms/wide-column.md)
-  * [Document oriented](general-programming/databases-paradigms/document-oriented.md)
-  * [Relational](general-programming/databases-paradigms/relational.md)
-  * [Graph](general-programming/databases-paradigms/graph.md)
-  * [Search](general-programming/databases-paradigms/search.md)
-  * [Multi-Model](general-programming/databases-paradigms/multi-model.md)
-* [Make](general-programming/make.md)
-* [REST](general-programming/rest.md)
+* [Centralized vs Distributed vs Decentralized System](programming/centralized-vs-distributed-vs-decentralized-system.md)
+* [Data Structures](programming/data-structures.md)
+* [Databases paradigms](programming/databases-paradigms)
+  * [Key-Value](programming/databases-paradigms/key-value.md)
+  * [Wide-Column](programming/databases-paradigms/wide-column.md)
+  * [Document oriented](programming/databases-paradigms/document-oriented.md)
+  * [Relational](programming/databases-paradigms/relational.md)
+  * [Graph](programming/databases-paradigms/graph.md)
+  * [Search](programming/databases-paradigms/search.md)
+  * [Multi-Model](programming/databases-paradigms/multi-model.md)
+* [Languages](programming/languages)
+  * [Assembly](programming/languages/assembly.md)
+  * [C](programming/languages/c.md)
+  * [Go](programming/languages/go.md)
+  * [Java](programming/languages/java.md)
+  * [Solidity](programming/languages/solidity.md)
+* [Make](programming/make.md)
+* [Paradigms](programming/paradigms)
+  * [Object-Oriented Programming (OOP)](programming/paradigms/oop.md)
+* [REST](programming/rest.md)
 
 ## Documentation
 
@@ -61,14 +70,7 @@
 * [Operating Systems](systems/operating-systems.md)
 * [Virtualization](systems/virtualization.md)
 
-## Languages
-
-* [Assembly](languages/assembly.md)
-* [C](languages/c.md)
-* [Go](languages/go.md)
-* [Solidity](languages/solidity.md)
-
-## Containerization
+## DevOps
 
 * [Docker](containerization/docker.md)
 
@@ -84,3 +86,7 @@
 * [Reverse Engineering](cybersecurity/reverse-engineering.md)
 * [Steganography](cybersecurity/stenagography.md)
 * [Web Security](cybersecurity/web.md)
+
+## Soft Skills
+
+* [Project Management](soft-skills/project-management.md)

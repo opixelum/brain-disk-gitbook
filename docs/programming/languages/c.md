@@ -1,8 +1,8 @@
 # C
 
-## Introduction
+## Introduction
 
-## Types
+## Types
 
 ## Conditional
 
@@ -10,7 +10,7 @@
 
 ## Pointers
 
-### Definition
+### Definition
 
 A pointer is a variable that stores a memory location (or an address of a
 variable).
@@ -36,7 +36,7 @@ The unary operator **\* (asterisk)** is used for two things:
 To get the address of a variable, we use the unary operator **& (ampersand)**.
 For example, **&x** gives us the **address of variable x**.
 
-## Functions
+## Functions
 
 ## Structures
 
