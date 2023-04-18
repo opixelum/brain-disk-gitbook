@@ -23,17 +23,62 @@ contract HelloWorld {
 
 ## Libraries
 
-Libraries are similar to contracts but with a few differences. One of them
-allows us to use the ***using*** keyword, which automatically tacks on all of
-the library's methods to another data type.
+- Similar to contracts, but **stateless** (no storage, so no state variables);
+- Used for **code reuse**;
+- Declared with `library` keyword.
 
-```sol
-using SafeMath for uint;
-// now we can use these methods on any uint
-uint test = 2;
-test = test.mul(3); // test now equals 6
-test = test.add(5); // test now equals 11
+```solidity
+library StringUtils {
+    struct String {
+        bytes32 value;
+        uint256 length;
+    }
+    
+    function concat(String memory _self, String memory _other) internal pure returns (String memory) {
+        String memory result = String({
+            value: _self.value,
+            length: _self.length
+        });
+        
+        for (uint256 i = 0; i < _other.length; i++) {
+            result.value |= bytes32(uint256(_other.value) * (2 ** (8 * (i + _self.length))));
+            result.length++;
+        }
+        
+        return result;
+    }
+}
 ```
+
+### Deployed libraries
+
+- If a library has at least one ***public*** or ***external*** function, it must
+  be **deployed** to the blockchain;
+- Function calls from contract to library use the **delegatecall** opcode, which
+  means that the **library**'s **code** is **executed** in the **context** of the
+  **contract** (execute library's code with contract's storage & state). For 
+  instance, it keeps the same `msg.sender` and `msg.value` values;
+- Contracts using deployed libraries have a **placeholder** for the **library** 
+  **address** in their **bytecode** after compilation. Example of a placeholder:
+  `__$30bbc0abd4d6364515865950d3e0d10953$__`;
+- To replace the placeholder, deployed libraries must be **linked** to the 
+  contract. This process can be done by frameworks like **Truffle**, **Hardhat**
+  or **Foundry**, or by using the **solc** compiler. Example of a 
+  deployment with linkage using Foundry:
+
+```console
+forge create --rpc-url <rpc-url> --private-key <private-key> --libraries <library-path>:<library-name>:<library-address> <contract-path>:<contract-name>
+```
+
+### Inlined libraries
+
+- If a library has **no** ***public*** or ***external*** functions, it can be
+  **inlined** (included) in the contract's bytecode, meaning that it will not be 
+  deployed;
+- Function calls from contract to library use the **JUMP** opcode (like normal
+  function calls);
+- Those libraries are inlined for **efficiency** (cheaper gas fees) &
+  **simplicity** (no need to link libraries to contracts).
 
 ## Variables data location
 
