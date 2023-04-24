@@ -16,14 +16,32 @@ contracts, etc;
 
 ## Storage
 
-- Storage is a key-value permanent store that is part of the state;
-- Key-value pairs are called "slots";
-- Values are called ***words*** or ***items***, and are 256-bit (32 bytes)
-long;
-- Keys are Keccak-256 (so 32 bytes long) hashes of the their contract address
-and the word;
+- Key-value permanent store that is part of the state;
+- Key-value pairs = "slots";
+- Values = 256 bits ***words*** or ***items***;
+- Keys = Keccak256 hashes of their contract's address & the word;
 - If a transaction tries to add an item that is too big, the transaction will
-be reverted;
+  be reverted;
+- Data types smaller than 256 bits can be packed into a single slot. For this,
+  developers must order the same data types from the smallest to the biggest:
+
+```solidity
+// Good
+uint8 a;
+uint16 b;
+uint32 c;
+
+// Bad
+uint16 a;
+uint8 b;
+uint32 c;
+```
+
+- Mappings & dynamic arrays values are stored in different slots but contiguous;
+- Strings have 1 storage slot for the length, then 1 slot for each 32 bytes of
+  the string;
+- A struct is stored in a single slot if it fits, otherwise it is stored in
+  multiple contiguous slots.
 
 ## References
 
