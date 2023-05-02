@@ -534,28 +534,23 @@ uint8 b = uint8(a); // A has been converted from uint to uint8
 
 ## Events
 
-***event*** lets contract to communicate with the front-end, which can listen to it.
-```sol
-// Declare the event
-event IntegersAdded(uint x, uint y, uint result);
+- Allow for **logging** and **listening** to contract activities;
+- Can be indexed with up to **3 `indexed` parameters** (topics);
+- **Non-indexed** parameters are event's **data**;
+- Emitted events can be **filtered by topics**.
 
-function add(uint _x, uint _y) public returns (uint) {
-  uint result = _x + _y;
-  // Fire an event to let the app know the function was called:
-  emit IntegersAdded(_x, _y, result);
-  return result;
+```solidity
+event Deposit(
+    address indexed from,
+    bytes32 indexed id,
+    uint value
+);
+
+function deposit(bytes32 id) public payable {
+    // deposit logic
+    emit Deposit(msg.sender, id, msg.value);
 }
 ```
-
-On the front-end, we can use it like this:
-```sol
-YourContract.IntegersAdded(function(error, result) {
-  // Do something with result
-})
-```
-
-By the way, there are JavaScript frameworks that help us for working with
-contracts on the front-end, such as **web3.js** or **ether.js**.
 
 ## Inheritance
 
