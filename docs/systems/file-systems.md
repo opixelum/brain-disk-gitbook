@@ -10,9 +10,14 @@
 - Hard limit: user **cannot exceed** the limit;
 - Soft limit: user can exceed the limit for a **certain amount of time** (grace
   period) before the hard limit is enforced;
-- Packages:
-  - `quota`: **user** and **group** quotas;
-  - `quota-tools`: **project** quotas;
+
+### Quota Packages
+
+| Package       | Description                   |
+|---------------|-------------------------------|
+| `quota`       | **user** and **group** quotas |
+| `quota-tools` | **project** quotas            |
+
 - Mount options:
   - `usrquota`: **user** quotas;
   - `grpquota`: **group** quotas;
@@ -21,7 +26,8 @@
   - `/aquota.user`: **user** quotas;
   - `/aquota.group`: **group** quotas;
   - `/aquota.project`: **project** quotas;
-- Commands:
+
+### Quota Commands
 
 | Command              | Description                         |
 |----------------------|-------------------------------------|
