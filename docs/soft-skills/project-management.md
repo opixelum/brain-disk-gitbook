@@ -19,3 +19,7 @@
 - Shows the dependencies between the tasks.
 
 ![WBS Chart](../.gitbook/assets/soft-skills/project-management/wbs-chart.png)
+
+## References
+
+- Philippe Tissot [philippe.tissot@five-conseil.com](mailto:philippe.tissot@five-conseil.com)
