@@ -10,7 +10,7 @@ the `DELEGATECALL` opcode.
 
 ## Types of proxies
 
-### Transparent proxy
+### Transparent
 
 ### UUPS
 
@@ -25,6 +25,13 @@ the `DELEGATECALL` opcode.
   upgrade will fail & it will **lock** the upgradeability of the proxy 
   **forever** (thanks to security mechanism described in
   [**EIP1822**](https://eips.ethereum.org/EIPS/eip-1822).
+
+## Initialization
+
+Since proxies hold the storage, implementations need to be initialized through
+the proxy's delegatecall, and not with a constructor. If a constructor is used,
+initialized data will be stored in the implementation contract, leading to
+missing data when using the proxy.
 
 ## References
 
