@@ -1,5 +1,10 @@
 # Data Structures
 
+## Hash data structures
+
+- *"Hash"* refers to the use of a hash function to quickly and efficiently map
+  keys to values, enabling fast look-up, insertion, and deletion operations.
+
 ## Arrays
 
 - Fixed-size, indexed collection of elements;
