@@ -106,6 +106,28 @@ try {
 }
 ```
 
+## Collections
+
+### List
+
+- Ordered collection of elements;
+- Implemented by:
+  - `ArrayList`: Resizable array;
+  - `LinkedList`: Doubly-linked list;
+  - `Vector`: Thread-safe resizable array;
+    - `Stack`: LIFO (last-in-first-out) collection.
+
+### Set
+
+- Unordered collection of unique elements;
+- Implemented by:
+  - `EnumSet`: Abstract class for sets of enum types;
+  - `HashSet`: Hash table;
+  - SortedSet: Interface for sorted sets;
+    - `TreeSet`: Red-black tree.
+
 ## References
 
 - [Java (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Exceptions in Java - GeeksforGeeks](https://www.geeksforgeeks.org/exceptions-in-java/)
+- Olivier Denier ([odenier@yakacoder.fr](mailto:odenier@yakacoder.fr))
