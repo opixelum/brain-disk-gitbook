@@ -56,6 +56,56 @@ public class Child extends Parent {
 }
 ```
 
+## Error & Exception handling
+
+Although it's safer to handle errors and exceptions, it slows down the program.
+So, it's better to handle only the exceptions that are likely to occur.
+
+### Checked & unchecked exceptions
+
+- Checked exceptions are exceptions that must be handled by the programmer;
+- Unchecked exceptions are exceptions that don't need to be handled by the
+  programmer.
+
+### Error
+
+- Exceptional conditions that are external to the application, and that the
+  application usually cannot anticipate or recover from;
+- Examples: JVM running out of memory, stack overflow, etc.
+- Errors are unchecked.
+- Errors are not meant to be caught or handled (although it's possible).
+
+### Exception
+
+- Exceptional conditions that are internal to the application, and that the
+  application should anticipate and recover from;
+- Examples: invalid user input, file not found, network connection lost, etc.
+- Exceptions are checked.
+
+### RuntimeException
+
+- Exceptions that can be thrown anywhere in the code;
+- Examples: `NullPointerException`, `IndexOutOfBoundsException`, etc.
+- RuntimeExceptions are unchecked.
+- RuntimeExceptions are not meant to be caught or handled (although it's
+  possible).
+
+### Errors & Exceptions hierarchy
+
+![Errors & Exceptions hierarchy](../../.gitbook/assets/programming/languages/java/errors-exceptions-hierarchy.png)
+
+### try-catch-finally
+
+```java
+try {
+  // Code that may throw an exception
+} catch (Exception e) {
+  // Code that handles the exception
+} finally {
+  // Code that always runs
+}
+```
+
 ## References
 
 - [Java (programming language) - Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
