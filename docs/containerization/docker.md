@@ -2,7 +2,8 @@
 
 ## Definition
 
-Platform for building, running, and shipping applications using container technology.
+Platform for building, running, and shipping cross-platform applications using
+container technology.
 
 ## Image
 
