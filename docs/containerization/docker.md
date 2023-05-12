@@ -41,3 +41,28 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 | `--rm` | Automatically remove the container when it exits.                    |
 | `-v`   | Mount a volume: `hostPath:containerPath`.                            |
 | `-w`   | Working directory inside the container.                              |
+
+## Volumes
+
+- **Persistent data storage** for containers.
+- **Independent from the container's lifecycle**.
+- **Can be shared** between containers.
+
+### Data volumes
+
+- Default Docker storage type;
+- Works on both Linux and Windows;
+- Easy to move/save;
+- Can be used with volumes drivers for remote storage (NFS, SAMBA, cloud, ...).
+
+### Bind volumes
+
+- Map a host directory to a container directory;
+
+### TMPFS volumes
+
+- Stored in the host's memory;
+- Faster than data volumes;
+- Linux only;
+- Same lifecycle as the container;
+- Can't be shared between containers.
