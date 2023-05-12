@@ -15,13 +15,13 @@ to run an application.
 
 ### Image commands
 
-| Command | Description |
-|-------- | ----------- |
-| `docker images` | List all images. |
-| `docker image build <dockerfile>` | Build an image from a Dockerfile. |
-| `docker image rm <image>` | Remove an image. |
-| `docker image tag <image> <tag>` | Create an alias for an image. |
-| `docker pull <image>` | Pull an image from the Docker Hub. |
+| Command                           | Description                        |
+|-----------------------------------|------------------------------------|
+| `docker images`                   | List all images.                   |
+| `docker image build <dockerfile>` | Build an image from a Dockerfile.  |
+| `docker image rm <image>`         | Remove an image.                   |
+| `docker image tag <image> <tag>`  | Create an alias for an image.      |
+| `docker pull <image>`             | Pull an image from the Docker Hub. |
 
 ## Container
 
@@ -33,11 +33,11 @@ to run an application.
 docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
 
-| Option | Description |
-|-------- | ----------- |
-| `-d` | Run container in background. |
-| `-it` | Make container interactive through a terminal. |
-| `-p` | Publish a container's port(s) to the host: `hostPort:containerPort`. |
-| `--rm` | Automatically remove the container when it exits. |
-| `-v` | Mount a volume: `hostPath:containerPath`. |
-| `-w` | Working directory inside the container. |
+| Option | Description                                                          |
+|--------|----------------------------------------------------------------------|
+| `-d`   | Run container in background.                                         |
+| `-it`  | Make container interactive through a terminal.                       |
+| `-p`   | Publish a container's port(s) to the host: `hostPort:containerPort`. |
+| `--rm` | Automatically remove the container when it exits.                    |
+| `-v`   | Mount a volume: `hostPath:containerPath`.                            |
+| `-w`   | Working directory inside the container.                              |
