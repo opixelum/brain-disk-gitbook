@@ -67,3 +67,22 @@ _Coming soon_
 ### ERC-4626
 
 _Coming soon_
+
+## Gas
+
+- Unit of measure for the amount of computational effort required to execute
+  specific operations on the Ethereum network;
+- Gas is paid in Gwei (1 Gwei = 0.000000001 ETH);
+- Gas is used to pay for transactions fees.
+
+## Gas & energy correlation
+
+Since gas is a unit of measure for the amount of computational effort required,
+the more gas is required for a function, the more energy is required. But this
+can be negligible, depending on various factors:
+
+- Hardware used to validate transactions & running smart contracts;
+- Number of nodes (every nodes must validate the transaction);
+- Number of users (multiply the gas cost of a function by the number of users
+  using it).
+- ...
