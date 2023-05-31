@@ -63,7 +63,9 @@ a delegated call is made by a static call, the EVM needs to perform a state
 lookup twice. [[1]](#references)
 
 Depending on the blockchain & the network congestion, a delegated call may add
-between 700 & 4000 gas to the total gas cost of a transaction.
+between 400 & 5000 gas to the total gas cost of a transaction (it can
+significantly vary depending on the computational effort needed for the loaded
+code).
 
 ## Optimizing Gas Usage
 
