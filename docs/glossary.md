@@ -64,6 +64,12 @@ used.
 Process of distributing or dispersing functions, powers, people or things
 away from a central location or authority.
 
+### Delegate call (Solidity)
+
+Type of function call in Solidity that allows to execute code of another
+contract while preserving the current context (storage, caller, value, ...).
+Often used to implement proxy contracts.
+
 ### Digital certificate
 
 Electronic document used to prove the validity of a [public key](#public-key).
