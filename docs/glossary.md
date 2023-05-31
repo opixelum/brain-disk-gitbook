@@ -44,7 +44,7 @@ E.g.: a binary IP address mask is a bitmask.
 List of data organized by blocks, managed by a peer-to-peer network, as a
 distributed ledger.
 
-##  C
+## C
 
 ### Certificate Authority (CA)
 
@@ -91,7 +91,7 @@ Standards specifying potential new features or processes for Ethereum.
 Key concept of object-oriented programming, that refers to bundle data &
 methods into a single unit, frequently in the form of class.
 
-##  F
+## F
 
 ### Firmware
 
