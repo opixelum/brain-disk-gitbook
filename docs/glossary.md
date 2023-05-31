@@ -32,7 +32,7 @@ computer, product, embedded device, or its embodiment.
 
 [Firmware](#firmware) used to provide runtime services for
 [OS](#operating-system-os) & programs & to perform hardware initialization
-during the bootin process.
+during the booting process.
 
 ### Bitmask
 
@@ -141,7 +141,7 @@ Refers to how easy it is to trade assets without impacting their price.
 
 ### Liquidity pool
 
-Pile of crypto currencies locked in a smart contract.
+Pile of cryptocurrencies locked in a smart contract.
 
 ### Liquidity provider
 
@@ -164,7 +164,7 @@ Person who fund a liquidity pool with assets.
 
 ### Object-oriented programming
 
-Paradigm in which prgrams are structured around objects or data fields rather
+Paradigm in which programs are structured around objects or data fields rather
 than functions or logic.
 
 ### Operating system (OS)
@@ -233,14 +233,14 @@ Refers to exchanging one crypto asset to another.
 ### System software
 
 Program that manages memory, files, processor, ... It also provides interfaces
-between [application softwares](#application-software) and hardware.
+between [application software](#application-software) and hardware.
 
 ## U
 
 ### Upkeep (Chainlink)
 
 Smart contract registered on the Keepers Registry, so the Keepers Network can
-automates it.
+automate it.
 
 ### Uniform Resource Identifier (URI)
 
@@ -249,7 +249,7 @@ used by web technologies.
 
 ### Uniform Resource Locator (URL)
 
-URI subset that ndicates where a resource is located
+URI subset that indicates where a resource is located
 
 ### Uniform Resource Name (URN)
 
