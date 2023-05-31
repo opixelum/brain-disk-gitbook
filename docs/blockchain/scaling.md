@@ -9,6 +9,7 @@
 - Increases the number of transactions per second;
 - Similar to a highway road with more lanes: more cars can ride simultaneously;
 - Layer 1 scaling solution;
+- Can help reduce gas fees since network is less congested.
 
 ### References
 
