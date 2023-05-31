@@ -114,14 +114,17 @@ other classes.
 ### Interrupt
 
 Request for the processor to interrupt currently executing code, by saving its
-state, then to execute an [interrupt handler](#interrupt-service-routine-isr-or-interrupt-handler)
-(or [Interrupt Service Routine](#interrupt-service-routine-isr-or-interrupt-handler)
+state, then to execute an
+[interrupt handler](#interrupt-service-routine-isr-or-interrupt-handler)
+(or
+[Interrupt Service Routine](#interrupt-service-routine-isr-or-interrupt-handler)
 , or [ISR](#interrupt-service-routine-isr-or-interrupt-handler)), in order to
 execute another process.
 
 ### Interrupt Service Routine (ISR or interrupt handler)
 
-Special block of code used for implementing device drivers or transitions between protected modes of operation, such as system calls.
+Special block of code used for implementing device drivers or transitions
+between protected modes of operation, such as system calls.
 
 ## K
 
@@ -176,7 +179,8 @@ actionable intelligence.
 
 ### Open Web Application Security Project (OWASP)
 
-Online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security
+Online community that produces freely-available articles, methodologies,
+documentation, tools, and technologies in the field of web application security.
 
 ## P
 
