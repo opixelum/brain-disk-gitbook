@@ -53,6 +53,18 @@ The gas refund is the amount of gas that is refunded to the sender of a
 transaction. The gas refund is equal to the gas limit minus the gas usage of
 the transaction. The gas refund is paid by the sender of the transaction.
 
+## Why delegated calls are more expensive in gas
+
+In order to prevent DoS attacks, it is mandatory to make delegated calls more
+expensive in gas than regular calls, because it requires more work to process
+them. In fact, the EVM needs to load the code of the contract that is being
+called, and for that, it needs to perform a lookup in the state tree. And since
+a delegated call is made by a static call, the EVM needs to perform a state
+lookup twice. [[1]](#references)
+
+Depending on the blockchain & the network congestion, a delegated call may add
+between 700 & 4000 gas to the total gas cost of a transaction.
+
 ## Optimizing Gas Usage
 
 - Use the correct data type for your variables. For example, use `uint8` for
@@ -64,30 +76,30 @@ for variables that will never change.
 - Use the correct visibility for your functions. For example, a public function
 will cost more gas than an internal function.
 
-  | Function visibility | Description |
-  |-------------------|-------------|
-  | `public` | Can be called by anyone. |
-  | `external` | Can only be called from outside the contract. |
-  | `internal` | Can only be called from inside the contract. |
-  | `private` | Can only be called from inside the contract that defines it. |
+| Function visibility | Description                                                  |
+|---------------------|--------------------------------------------------------------|
+| `public`            | Can be called by anyone.                                     |
+| `external`          | Can only be called from outside the contract.                |
+| `internal`          | Can only be called from inside the contract.                 |
+| `private`           | Can only be called from inside the contract that defines it. |
 
 - Use the correct function modifier for your functions.
 
-  | Function modifier | Description |
-  |-------------------|-------------|
-  | `view` | Does not modify the state of the contract. |
-  | `pure` | Does not modify the state of the contract and does not read from the state of the contract. |
-  | `payable` | Can receive Ether. |
+| Function modifier | Description                                                                                 |
+|-------------------|---------------------------------------------------------------------------------------------|
+| `view`            | Does not modify the state of the contract.                                                  |
+| `pure`            | Does not modify the state of the contract and does not read from the state of the contract. |
+| `payable`         | Can receive Ether.                                                                          |
 
 - Use the correct storage location for your variables. For example, `memory`
 variables will cost more gas than `calldata` variables because they are
 copied to memory. See the `calldata` keyword as a ***read-only*** variable.
 
-  | Storage location | Description |
-  |------------------|-------------|
-  | `memory` | Stored in memory. |
-  | `storage` | Stored in storage. |
-  | `calldata` | Stored in calldata. |
+| Storage location | Description         |
+|------------------|---------------------|
+| `memory`         | Stored in memory.   |
+| `storage`        | Stored in storage.  |
+| `calldata`       | Stored in calldata. |
 
 - Impose a size limit on strings with the `bytes` data type. For example, use
 `bytes32` instead of `string` for strings that will never be greater than 32
@@ -107,34 +119,34 @@ will cost more gas.
 
 - Use `unchecked` blocks to avoid overflow checks in for loops.
 
-  ```solidity
-  // Wrong
-  for (uint i = 0; i < 100; i++) {
-      // Do something
-  }
+```solidity
+// Wrong
+for (uint i = 0; i < 100; i++) {
+    // Do something
+}
 
-  // Right
-  for (uint i; i < 100;) {
-      // Do something
-      unchecked {
-          i++;
-      }
-  }
-  ```
+// Right
+for (uint i; i < 100;) {
+    // Do something
+    unchecked {
+        i++;
+    }
+}
+ ```
 
 - Use `public`/`external` functions as interfaces to your contract, then use
 `internal` functions to do the actual work. This will save you gas because
 `public`/`external` functions will cost more gas than `internal` functions.
 
-  ```solidity
-  function foo() public {
-      _foo();
-  }
+```solidity
+function foo() public {
+    _foo();
+}
 
-  function _foo() internal {
-      // Do something
-  }
-  ```
+function _foo() internal {
+    // Do something
+}
+```
 
 - In custom function modifiers, declare `error` instead of using a string in
 `require` statements. This will save you gas because `require` costs more gas
@@ -143,27 +155,27 @@ defined in the previous point. This will save you gas because at compile time,
 the compiler will inline the internal function, meaning that the bytecode will
 be smaller by just containing the function call instead of the function body.
 
-  ```solidity
-  // Wrong
-  modifer onlyOwner() {
-      require(msg.sender == owner, "Only the owner can call this function.");
-      _;
-  }
+```solidity
+// Wrong
+modifer onlyOwner() {
+    require(msg.sender == owner, "Only the owner can call this function.");
+    _;
+}
 
-  // Right
-  error OnlyOwnerCanCallThisFunction();
+// Right
+error OnlyOwnerCanCallThisFunction();
 
-  modifer onlyOwner() {
-      _onlyOwner();
-      _;
-  }
+modifer onlyOwner() {
+    _onlyOwner();
+    _;
+}
 
-  function _onlyOwner() internal view {
-      if (msg.sender != owner) {
-          revert OnlyOwnerCanCallThisFunction();
-      }
-  }
-  ```
+function _onlyOwner() internal view {
+    if (msg.sender != owner) {
+        revert OnlyOwnerCanCallThisFunction();
+    }
+}
+```
 
 - Using the optimizer will save you gas. With a high `runs` value, the
 optimizer will make your bytecode longer (so it will cost more gas to deploy)
@@ -171,3 +183,7 @@ but each operation will cost less gas. With a low `runs` value, the optimizer
 will make your bytecode shorter (so it will cost less gas to deploy) but each
 operation will cost more gas. A good tradeoff for the `runs` value is
 **20,000**.
+
+## References
+
+1. [Why is there significant gas costs associated with call and delegate call? - Ethereum Stack Exchange](https://ethereum.stackexchange.com/questions/117733/why-is-there-significant-gas-costs-associated-with-call-and-delegate-call)
