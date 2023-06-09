@@ -114,3 +114,47 @@ sudo blkid -t TYPE=ext4
 ```console
 drwxrwxrwt  2 root root  4096 May  1 12:34 tmp
 ```
+
+## Find files
+
+### `locate`
+
+- **Fast**;
+- **Searches** in a **database** containing **all files** on the system;
+- **Does not search** in **real time**, since the database needs to be updated
+  first (`updatedb` command).
+
+### `find`
+
+- **Slower**;
+- **Searches** in **real time**.
+- Can **execute commands** on the **found files** with `-exec` option;
+- 
+```console
+find /home –size +100M –exec rm '{ }' ';'
+```
+
+- **Can** search by:
+  - **Name** (`-name`);
+  - **Type**;
+  - **Size** (`-size`, `-empty`);
+  - **Permissions**;
+  - **User** (`-user`);
+  - **Group**;
+  - **Date** (`-mtime`, `-daystart`);
+  - **Content**;
+  - And more....
+  - 
+```console
+find / -name "file.txt"
+```
+
+## `which`
+
+**Locates** the **default executable file** associated with a **command**.
+
+## `whereis`
+
+- **Locates** the executable file associated with a command;
+- **Locates** the **manual page** associated with a command;
+- **Locates** the **source code** associated with a command.
