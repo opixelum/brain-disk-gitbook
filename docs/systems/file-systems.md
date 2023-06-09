@@ -1,5 +1,22 @@
 # File Systems
 
+## Types of file systems
+
+- Windows:
+  - Installation FS:
+    - **FAT** (File Allocation Table);
+    - **NTFS** (New Technology File System);
+  - Native recognized FS:
+    - FAT;
+    - NTFS;
+    - **ExFAT** (Extended File Allocation Table);
+- Linux:
+  - Installation FS:
+    - **Ext** (Extended File System);
+    - **ReiserFS**;
+    - ...
+  - Native recognized FS: almost all;
+
 ## Quota
 
 - **Limit on disk usage (inodes or blocks)**;
