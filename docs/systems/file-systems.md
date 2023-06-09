@@ -90,4 +90,10 @@ sudo blkid -t TYPE=ext4
 
 - **Special permission** that can be set on **directories**;
 - **Prevents users** from **deleting** files they **do not own** in a
-  **directory**.
+  **directory**;
+- View sticky bit with `ls -l`. You should see a `t` at the end of the
+  permissions:
+
+```console
+drwxrwxrwt  2 root root  4096 May  1 12:34 tmp
+```
