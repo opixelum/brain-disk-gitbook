@@ -78,3 +78,16 @@ sudo quotacheck -cug /
 ```console
 sudo blkid -t TYPE=ext4
 ```
+
+## Extended access rights
+
+### SUID & SGID
+
+- **S**et **U**ser/**G**roup **ID**;
+- **Special permissions** that can be set on **executable files**.
+
+## Sticky bit
+
+- **Special permission** that can be set on **directories**;
+- **Prevents users** from **deleting** files they **do not own** in a
+  **directory**.
