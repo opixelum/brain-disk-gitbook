@@ -61,3 +61,20 @@ sudo mount -o remount /
 ```console
 sudo quotacheck -cug /
 ```
+
+## Disk management
+
+### Devices information
+
+#### `blkid`
+
+- List **block devices** connected to the system with:
+  - **UUID**;
+  - **File system type**;
+  - **Label** if any;
+  - **System name**.
+- Filter by **file system type** with `-t` option:
+
+```console
+sudo blkid -t TYPE=ext4
+```
