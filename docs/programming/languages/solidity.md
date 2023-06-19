@@ -56,14 +56,14 @@ library StringUtils {
   be **deployed** to the blockchain;
 - Function calls from contract to library use the **delegatecall** opcode, which
   means that the **library**'s **code** is **executed** in the **context** of the
-  **contract** (execute library's code with contract's storage & state). For 
+  **contract** (execute library's code with contract's storage & state). For
   instance, it keeps the same `msg.sender` and `msg.value` values;
-- Contracts using deployed libraries have a **placeholder** for the **library** 
+- Contracts using deployed libraries have a **placeholder** for the **library**
   **address** in their **bytecode** after compilation. Example of a placeholder:
   `__$30bbc0abd4d6364515865950d3e0d10953$__`;
-- To replace the placeholder, deployed libraries must be **linked** to the 
+- To replace the placeholder, deployed libraries must be **linked** to the
   contract. This process can be done by frameworks like **Truffle**, **Hardhat**
-  or **Foundry**, or by using the **solc** compiler. Example of a 
+  or **Foundry**, or by using the **solc** compiler. Example of a
   deployment with linkage using Foundry:
 
 ```console
@@ -73,7 +73,7 @@ forge create --rpc-url <rpc-url> --private-key <private-key> --libraries <librar
 ### Inlined libraries
 
 - If a library has **no** ***public*** or ***external*** functions, it can be
-  **inlined** (included) in the contract's bytecode, meaning that it will not be 
+  **inlined** (included) in the contract's bytecode, meaning that it will not be
   deployed;
 - Function calls from contract to library use the **JUMP** opcode (like normal
   function calls);
@@ -162,15 +162,19 @@ Every reference type has a data location, either ***calldata***, ***memory*** or
 There are two types of arrays:
 
 - Fixed:
+
 ```sol
 uint[2] fixedArray; // Fixed array of 2 unsigned integer elements
 ```
+
 - Dynamic:
+
 ```sol
 uint[] dynamicArray; // Array that can keep growing
 ```
 
 To add an element to an array, we use de method ***push()***:
+
 ```sol
 uint[] numbers;
 numbers.push(5);
@@ -305,7 +309,7 @@ Zombie[] public zombies;
 ```
 
 - ***internal*** keyword is the same as private, except that it's also
-accessible to contracts that inherit from this contract. 
+accessible to contracts that inherit from this contract.
 
 ```sol
 function foo() internal {
@@ -326,12 +330,15 @@ function bar() external {
 ## Functions
 
 Functions are declared with the *function* keyword:
-```
+
+```solidity
 function eatHamburgers(string memory _name, uint _amount) public {
     // Instructions
 }
 ```
+
 Two ways to pass an argument:
+
 - By **value**: original variable value not changed (with *memory* keyword).
 - By **reference**: original variable value changed.
 
@@ -346,6 +353,7 @@ with an underscore (_) in order to differentiate them from global variables.
 To return a value from a function, we need the ***returns*** keyword in the
 declaration, specifying the return type. Moreover, we need ***return***
 (without the 's') in the function:
+
 ```sol
 function sayHello() public returns () {
     return "Hello!";
@@ -413,7 +421,7 @@ function getLastReturnValue() external {
 ### Function modifiers
 
 - ***view***: specifies that a function is only viewing the data but not
-modifying it. 
+modifying it.
 
 If a ***view*** function is called **externally** (with the ***external***
 visibility keyword), it doesnt' cost any gas. However, an **internally**
@@ -527,6 +535,7 @@ bytes4 functionSignature = bytes4(keccak256("foo(int8,uint256)"));
 ## Type casting
 
 Let us convert between data types:
+
 ```sol
 uint a = 8;
 uint8 b = uint8(a); // A has been converted from uint to uint8
@@ -601,6 +610,7 @@ which is just a contract inside our code, with the functions we want by writing
 their declaration only, and a quick setup:
 
 External contract:
+
 ```sol
 contract LuckyNumber {
     mapping(address => uint) numbers;
@@ -616,6 +626,7 @@ contract LuckyNumber {
 ```
 
 Our code:
+
 ```sol
 contract NumberInterface {
     // We want to use "getNum"
@@ -724,6 +735,7 @@ keccak256(abi.encodePacked("aaaab"));
 
 // Returns 6e91ec6b618bb462a4a6ee5aa2cb0e9cf30f7a052bb467b0ba58b8748c00d2e5
 ```
+
 Note that our string needs to be converted to binary. That's why we use the
 *abi.encodePacked()* method.
 
@@ -763,7 +775,7 @@ based on how much computing resources will be required to perform an operation.
 That's why code optimization is really important in Ethereum.
 
 Gas has been made in order to avoid people clogging up the network with
-infinite loops, or hogging all the network resources with really intensive computation. 
+infinite loops, or hogging all the network resources with really intensive computation.
 
 ### Struct packing for gas saving
 
