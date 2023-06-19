@@ -43,6 +43,21 @@ uint32 c;
 - A struct is stored in a single slot if it fits, otherwise it is stored in
   multiple contiguous slots.
 
+## Opcode
+
+### `STATICCALL`
+
+- Similar to `CALL` but does not allow state modifications;
+- Introduced in the [EIP-214](https://eips.ethereum.org/EIPS/eip-214);
+- Used for `view` & `pure` functions.
+
+### `DELEGATECALL`
+
+- Calls another contract's function using the current contract's context (storage,
+caller, value);
+- Introduced in the [EIP-7](https://eips.ethereum.org/EIPS/eip-7);
+- Used in proxy contracts.
+
 ## References
 
 - [(1) Ethereum Virtual Machine (EVM) - Ethereum Developer Documentation](https://ethereum.org/en/developers/docs/evm/)
