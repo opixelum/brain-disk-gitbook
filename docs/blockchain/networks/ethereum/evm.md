@@ -48,17 +48,21 @@ uint32 c;
 ### `STATICCALL`
 
 - Similar to `CALL` but does not allow state modifications;
-- Introduced in the [EIP-214](https://eips.ethereum.org/EIPS/eip-214);
+- Introduced in the [EIP-214](https://eips.ethereum.org/EIPS/eip-214)
+[[3]](#references);
 - Used for `view` & `pure` functions.
 
 ### `DELEGATECALL`
 
 - Calls another contract's function using the current contract's context (storage,
 caller, value);
-- Introduced in the [EIP-7](https://eips.ethereum.org/EIPS/eip-7);
+- Introduced in the [EIP-7](https://eips.ethereum.org/EIPS/eip-7)
+[[4]](#references);
 - Used in proxy contracts.
 
 ## References
 
 - [(1) Ethereum Virtual Machine (EVM) - Ethereum Developer Documentation](https://ethereum.org/en/developers/docs/evm/)
 - [(2) Merkle Patricia Trie - Ethereum Developer Documentation](https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/)
+- [(3) EIP-214: New opcode STATICCALL](https://eips.ethereum.org/EIPS/eip-214)
+- [(4) EIP-7: DELEGATECAL](https://eips.ethereum.org/EIPS/eip-7)
