@@ -39,6 +39,10 @@
 * [Introduction to Data Science](data-science/introduction.md)
 * [Data Mining](data-science/data-mining.md)
 
+## Networking
+
+* [Demilitarized Zone (DMZ)](networking/dmz.md)
+
 ## Programming
 
 * [Centralized vs Distributed vs Decentralized System](programming/centralized-vs-distributed-vs-decentralized-system.md)
