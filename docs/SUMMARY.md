@@ -38,6 +38,8 @@
 
 * [Introduction to Data Science](data-science/introduction.md)
 * [Data Mining](data-science/data-mining.md)
+* [Databases](data-science/databases/)
+  * [MariaDB](data-science/databases/mariadb.md)
 
 ## Networking
 
