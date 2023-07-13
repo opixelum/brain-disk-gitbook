@@ -44,6 +44,7 @@
 ## Networking
 
 * [Demilitarized Zone (DMZ)](networking/dmz.md)
+* [Active Directory (AD)](networking/active-directory.md)
 
 ## Programming
 
