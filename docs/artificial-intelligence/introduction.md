@@ -1,6 +1,6 @@
 # Introduction to Artificial Intelligence
 
-## Definition 
+## Definition
 
 Artificial Intelligence (AI) is the ability of a machine to perform cognitive
 functions normally associated with human intelligence, such as perceiving,
