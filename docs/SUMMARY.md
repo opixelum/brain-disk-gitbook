@@ -27,6 +27,7 @@
 * [Cryptocurrencies](blockchain/cryptocurrencies)
   * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
   * [Wrapped Tokens](blockchain/cryptocurrencies/wrapped_tokens.md)
+* [Oracles](blockchain/oracles.md)
 * [Scaling](blockchain/scaling.md)
 * [Smart Contracts](blockchain/smart-contracts/smart_contracts.md)
   * [Diamond Pattern](blockchain/smart-contracts/diamond-pattern.md)
