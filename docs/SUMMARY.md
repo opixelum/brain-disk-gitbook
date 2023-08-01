@@ -34,6 +34,8 @@
   * [Gas](blockchain/smart-contracts/gas.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
 * [Important dates & events](blockchain/important-dates-events.md)
+* [Use Cases](blockchain/use-cases)
+  * [Notarization](blockchain/use-cases/notarization.md)
 
 ## Data Science
 
