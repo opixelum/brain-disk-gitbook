@@ -18,3 +18,11 @@ nodes.
 - File systems (IPFS, Btrfs, ZFS, ...) to counter data degradation;
 - Version control systems (Git, Mercurial, ...) to detect changes to files;
 - NoSQL databases (Apache Cassandra, Riak, Dynamo, ...).
+
+## Properties
+
+- Need log(n) hashes to verify a root hash, where n is the number of leaves;
+- For binary merkle trees, indexes of left leaves are even numbers and indexes
+  of right leaves are odd numbers;
+- For binary merkle trees, the number of leaves is always a power of 2;
+- 
