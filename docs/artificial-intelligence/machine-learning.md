@@ -1,3 +1,5 @@
+# Machine Learning
+
 ## Introduction
 
 - Machine Learning (ML): A subset of AI where algorithms learn from and make predictions on data.
