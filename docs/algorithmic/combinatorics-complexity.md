@@ -29,3 +29,24 @@ neural network);
 objective function (eg: weights in a neural network);
 - **Constraints**: conditions that must be respected (definition domain of the
 decision variables).
+
+### Metaheuristics
+
+- **Local search**: start with a solution, and try to improve it by changing
+  - **Naive**: try all possible changes;
+  - **Recuit simulé**: try random changes, and accept bad changes with a 
+    probability that decreases over time;
+- **Population-based**:
+  - **Genetic algorithm**: start with a population of solutions, and try to 
+    improve it by selecting the best solutions and combining them.
+
+### Type of problems
+
+#### Graph questions
+
+- **Shortest path**: find the shortest path between 2 nodes (eg: Dijsktra, A*).
+
+#### Linear programs
+
+- Real decision variables (simplex graphical method);
+- Natural decision variables (branch & bound graphical method, Gomory cuts).
