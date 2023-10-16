@@ -23,8 +23,9 @@ Eg: when chatting with someone one WhatsApp, is it a human or a bot?
 
 ## Optimization problems
 
-- **Objective function**: function to optimize (minimize or maximize);
+- **Objective function**: function to optimize (minimize or maximize) (eg: a
+neural network);
 - **Decision variables**: variables that can be changed to optimize the
-objective function;
+objective function (eg: weights in a neural network);
 - **Constraints**: conditions that must be respected (definition domain of the
 decision variables).
