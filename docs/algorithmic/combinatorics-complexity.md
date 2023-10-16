@@ -32,6 +32,10 @@ decision variables).
 
 ### Metaheuristics
 
+Family of general-purpose optimization algorithms that can be applied to a wide
+range of problems, as long as we have an oracle to evaluate the objective
+function.
+
 - **Local search**: start with a solution, and try to improve it by changing
   - **Naive**: try all possible changes;
   - **Recuit simulé**: try random changes, and accept bad changes with a 
