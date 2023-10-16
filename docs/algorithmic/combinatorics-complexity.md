@@ -20,3 +20,11 @@ A human interacts with a computer and a human, and has to guess which one is the
 computer (if he can't, the computer is intelligent).
 
 Eg: when chatting with someone one WhatsApp, is it a human or a bot?
+
+## Optimization problems
+
+- **Objective function**: function to optimize (minimize or maximize);
+- **Decision variables**: variables that can be changed to optimize the
+objective function;
+- **Constraints**: conditions that must be respected (definition domain of the
+decision variables).
