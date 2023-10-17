@@ -42,5 +42,6 @@ exports (or copy) of data from other applications. This was a problem, because
 data was duplicated, and it was hard to keep data consistent.
 
 Nowadays, we prefer to centralize data, in order to have a single source of
-truth. Note that this is just a concept: in reality, data is still duplicated,
-even distributed, but it's managed by a single system within the organization.
+truth. Note that this is just a concept: in reality, data is still duplicated
+(but for a good reason), even distributed, but it's managed by a single system
+within the organization.
