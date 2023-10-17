@@ -35,3 +35,12 @@ trustworthy data, because it can be used to make decisions, train AI models, ...
 Usefulness of data, which can be used to make decisions. Extracting meaningful
 information from data is the goal of big data.
 
+## Data management
+
+Back in the days, each applications had its own database, and was asking for
+exports (or copy) of data from other applications. This was a problem, because
+data was duplicated, and it was hard to keep data consistent.
+
+Nowadays, we prefer to centralize data, in order to have a single source of
+truth. Note that this is just a concept: in reality, data is still duplicated,
+even distributed, but it's managed by a single system within the organization.
