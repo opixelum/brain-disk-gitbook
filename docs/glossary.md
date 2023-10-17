@@ -63,6 +63,11 @@ General agreement. In decentralized systems, it brings nodes back in sync. To
 reach consensus, mechanisms such as proof-of-work, proof-of-stake and more are
 used.
 
+### Client Relationship Management (CRM)
+
+Technology for managing all your company's relationships and interactions with
+customers and potential customers.
+
 ## D
 
 ### Data Lake
