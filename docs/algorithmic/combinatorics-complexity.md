@@ -80,6 +80,8 @@ time, but we can find a good local optimum
 
 ### Traveling salesman problem
 
+**Complexity**: NP-Hard problem.
+
 How to sell all my products without going twice to the same city, with the
 shortest path?
 
@@ -88,3 +90,7 @@ shortest path?
 - Constraints: visit each city once.
 
 We can't solve it with deterministic algorithms.
+
+### Integer Linear Programming (ILP)
+
+**Complexity**: NP-Hard problem.
