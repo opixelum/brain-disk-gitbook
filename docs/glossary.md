@@ -163,6 +163,13 @@ Pile of cryptocurrencies locked in a smart contract.
 
 Person who fund a liquidity pool with assets.
 
+## M
+
+### MLOps
+
+Practice of collaboration between data scientists and operations professionals
+(DevOps) to help manage the production machine learning lifecycle.
+
 ## N
 
 ### Nonce
