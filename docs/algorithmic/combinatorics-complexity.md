@@ -59,3 +59,16 @@ function.
 
 - Real decision variables (simplex graphical method);
 - Natural decision variables (branch & bound graphical method, Gomory cuts).
+
+## Known problems
+
+### Traveling salesman problem
+
+How to sell all my products without going twice to the same city, with the
+shortest path?
+
+- Decision variables: order of the cities;
+- Objective function: minimize the distance;
+- Constraints: visit each city once.
+
+We can't solve it with deterministic algorithms.
