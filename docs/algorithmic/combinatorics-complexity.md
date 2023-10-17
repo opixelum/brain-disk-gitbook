@@ -36,6 +36,9 @@ Family of general-purpose optimization algorithms that can be applied to a wide
 range of problems, as long as we have an oracle to evaluate the objective
 function.
 
+For NP-hard problems, we can't find the global optimal solution in a reasonable 
+time, but we can find a good local optimum
+
 **When to use metaheuristics**:
 
 - **No oracle**: we don't know the objective function (eg: neural network);
@@ -43,7 +46,7 @@ function.
 
 - **Local search**: start with a solution, and try to improve it by changing
   - **Naive**: try all possible changes;
-  - **Recuit simulé**: try random changes, and accept bad changes with a 
+  - **Simulated annealing**: try random changes, and accept bad changes with a 
     probability that decreases over time;
 - **Population-based**:
   - **Genetic algorithm**: start with a population of solutions, and try to 
