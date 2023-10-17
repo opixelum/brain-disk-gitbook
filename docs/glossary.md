@@ -34,6 +34,12 @@ computer, product, embedded device, or its embodiment.
 [OS](#operating-system-os) & programs & to perform hardware initialization
 during the booting process.
 
+### Big Data
+
+Field that treats ways to extract, store, analyse & process for creating value
+for an organization, meeting the 5 V's: volume, velocity, variety, veracity &
+value.
+
 ### Bitmask
 
 Pattern of bits indicating which bits in a second pattern are to be modified.
@@ -41,8 +47,8 @@ E.g.: a binary IP address mask is a bitmask.
 
 ### Blockchain
 
-List of data organized by blocks, managed by a peer-to-peer network, as a
-distributed ledger.
+List of data organized by immutable blocks, managed by a peer-to-peer network,
+as a distributed ledger.
 
 ## C
 
@@ -58,6 +64,16 @@ reach consensus, mechanisms such as proof-of-work, proof-of-stake and more are
 used.
 
 ## D
+
+### Data Lake
+
+Centralized repository of raw data collected from various sources for further
+processing.
+
+### Data Warehouse
+
+Centralized repository of data collected from various sources within an
+organization, designed to support business decisions.
 
 ### Decentralization
 
