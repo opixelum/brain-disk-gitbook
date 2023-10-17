@@ -30,6 +30,19 @@ objective function (eg: weights in a neural network);
 - **Constraints**: conditions that must be respected (definition domain of the
 decision variables).
 
+### Optimums
+
+In mathematical terms, an optimum is when the derivative of the objective
+function is 0 (when the curve changes direction).
+
+#### Global optimum
+
+The best possible solution (lowest or highest value of the objective function).
+
+#### Local optimum
+
+The best solution in a neighborhood of the current solution.
+
 ### Metaheuristics
 
 Family of general-purpose optimization algorithms that can be applied to a wide
