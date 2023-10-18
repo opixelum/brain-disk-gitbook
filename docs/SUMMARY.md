@@ -46,6 +46,11 @@
 * [Databases](data-science/databases/)
   * [MariaDB](data-science/databases/mariadb.md)
 
+## Mathematics
+
+* [Maths for Big Data](mathematics/maths-big-data.md)
+* [Maths for Computer Science](mathematics/maths-computer-science.md)
+
 ## Networking
 
 * [Active Directory (AD)](networking/active-directory.md)
