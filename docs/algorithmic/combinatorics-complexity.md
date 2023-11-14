@@ -65,6 +65,13 @@ time, but we can find a good local optimum
   - **Genetic algorithm**: start with a population of solutions, and try to 
     improve it by selecting the best solutions and combining them.
 
+#### Simulated annealing
+
+- **Temperature**: probability of accepting a bad change;
+- **Cooling schedule**: how the temperature decreases over time.
+- **Neighborhood**: set of possible changes.
+- **Oracle**: function that evaluates the objective function.
+
 ### Type of problems
 
 #### Graph questions
