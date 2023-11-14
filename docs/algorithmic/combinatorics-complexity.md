@@ -72,6 +72,15 @@ time, but we can find a good local optimum
 - **Neighborhood**: set of possible changes.
 - **Oracle**: function that evaluates the objective function.
 
+#### Genetic algorithm
+
+1. **Initialization**: create a population of solutions;
+2. Repeat until stopping criteria:
+   1. **Evaluation**: evaluate the objective function for each solution;
+   2. **Selection**: select the best solutions;
+   3. **Crossover**: combine the selected solutions;
+   4. **Mutation**: change some solutions.
+
 ### Type of problems
 
 #### Graph questions
