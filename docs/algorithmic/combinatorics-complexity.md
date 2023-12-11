@@ -81,6 +81,15 @@ time, but we can find a good local optimum
    3. **Crossover**: combine the selected solutions;
    4. **Mutation**: change some solutions.
 
+- **Population**: set of solutions (best = variables * 10);
+- **Mutation rate**: probability of changing a solution (between 0.02 and 0.15);
+
+#### Selection Operators
+
+- **Roulette-wheel**: select a solution with a probability proportional to its
+  fitness;
+- **Tournament**: select the best solution in a random subset of the population.
+
 ### Type of problems
 
 #### Graph questions
