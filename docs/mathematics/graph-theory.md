@@ -31,3 +31,22 @@
 - **Elementary Path**: A path where no edge is repeated;
 - **Hamiltonian Path**: A path that visits every vertex exactly once;
 - **Eulerian Path**: A path that visits every edge exactly once;
+
+## Algorithms
+
+### Dijkstra
+
+- Find the cheapest path between two nodes;
+- Works on directed weighted graphs;
+
+### A*
+
+- A* = Dijkstra + heuristic;
+- Heuristic = estimated distance to the goal;
+- A* is optimal if the heuristic is admissible (never overestimates the distance
+  to the goal);
+
+#### Heuristics
+
+- **Manhattan distance**: distance between two points measured along axes at
+  right angles;
