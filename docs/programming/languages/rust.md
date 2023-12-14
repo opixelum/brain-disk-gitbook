@@ -6,7 +6,7 @@
   a struct wrapping a `Vec<u8>`.
 - `str` is an **immutable**, **fixed length** string slice.
 
-## Traits
+## `trait`
 
 - Collection of methods;
 - Contains functions declarations & default implementations;
