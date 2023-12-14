@@ -5,6 +5,7 @@
 
 ## Algorithmic
 
+* [Combinatorics & Complexity](algorithmic/combinatorics-complexity.md)
 * [Searching](algorithmic/searching.md)
 
 ## Artificial Intelligence
