@@ -45,11 +45,15 @@
 - Heuristic = estimated distance to the goal;
 - A* is optimal if the heuristic is admissible (never overestimates the distance
   to the goal);
+- Faster than Dijkstra because it explores the most promising paths first (based
+  on a good heuristic);
+- On very complex graphs, Dijkstra is faster than A* because the heuristic
+  calculation has a cost.
 
 #### Heuristics
 
 - **Manhattan distance**: distance between two points measured along axes at
-  right angles;
+  right angles.
 
 ## Notes
 
