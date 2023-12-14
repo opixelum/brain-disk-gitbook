@@ -50,3 +50,10 @@
 
 - **Manhattan distance**: distance between two points measured along axes at
   right angles;
+
+## Notes
+
+- A table is a graph where:
+  - The cells are vertices;
+  - Going to a neighbor vertically or horizontally has a weight of 1;
+  - Going to a neighbor diagonally has a weight of sqrt(2).
