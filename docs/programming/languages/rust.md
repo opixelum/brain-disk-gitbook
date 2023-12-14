@@ -13,28 +13,28 @@
 - Can be implemented by any type.
 
 ```rust
-trait Animal {
+trait Animal<'a> {
     // Method declarations
-    fn new(name: &'static str) -> Self;
+    fn new(name: &'a str) -> Self;
     
     // Method definitions with default implementation
-    fn move(&self, destination: &'static str) {
+    fn move(&self, destination: &'a str) {
         println!("{} moves to {}", self.name, destination);
     }
 }
 
-struct Horse {
-    name: &'static str,
+struct Horse<'a> {
+    name: &'a str,
 }
 
-impl Animal for Horse {
+impl<'a> Animal<'a> for Horse<'a> {
     // Define the methods declared in the trait
-    fn new(name: &'static str) -> Horse {
+    fn new(name: &'a str) -> Horse<'a> {
         Horse { name: name }
     }
     
     // Override the default implementation
-    fn move(&self, destination: &'static str) {
+    fn move(&self, destination: &'a str) {
         println!("{} gallops to {}", self.name, destination);
     }
 }
@@ -80,7 +80,6 @@ enum ComputationResult<T, E> {
 - Enums are useful for match statements, structs are useful for storing data.
 
 ```rust
-
 enum MessageStatus {
     Read,
     Unread,
@@ -113,5 +112,34 @@ fn main() {
         // Ignore `Unread` & `Deleted` variants
         _ => println!("Unknown behavior"),
     }
+}
+```
+
+## Lifetime
+
+- Lifetime is the scope for which a variable is valid;
+- A single quote (`'`) is used to specify the lifetime of a variable;
+- Can be generic (declared like a generic type).
+- If not explicitly declared, the compiler infers the lifetime of a variable
+  (implicit).
+
+```rust
+// `plate` cannot live longer than `car` (explicit)
+struct Car<'a> {
+    plate: &'a str,
+    max_speed: u32,
+}
+
+fn main() {
+    let car = Car { plate: "ABC123", max_speed: 200 };
+    println!("{}", car.plate);
+    
+    // `message` is valid for the entire scope of the `main` function (implicit)
+    let message = String::from("Hello, world!");
+    println!("{}", message);
+
+    // `name` is valid for the entire program (explicit)
+    let name: &'static str = "John";
+    println!("{}", name);
 }
 ```
