@@ -1,77 +1,5 @@
 # Rust
 
-## `String` vs `str`
-
-- `String` is a **mutable**, **growable** heap-allocated string, implemented by
-  a struct wrapping a `Vec<u8>`.
-- `str` is an **immutable**, **fixed length** string slice.
-
-## `trait`
-
-- Collection of methods;
-- Contains functions declarations & default implementations;
-- Can be implemented by any type.
-
-```rust
-trait Animal<'a> {
-    // Method declarations
-    fn new(name: &'a str) -> Self;
-    
-    // Method definitions with default implementation
-    fn move(&self, destination: &'a str) {
-        println!("{} moves to {}", self.name, destination);
-    }
-}
-
-struct Horse<'a> {
-    name: &'a str,
-}
-
-impl<'a> Animal<'a> for Horse<'a> {
-    // Define the methods declared in the trait
-    fn new(name: &'a str) -> Horse<'a> {
-        Horse { name: name }
-    }
-    
-    // Override the default implementation
-    fn move(&self, destination: &'a str) {
-        println!("{} gallops to {}", self.name, destination);
-    }
-}
-```
-
-## Generics
-
-- Define any data type, or ones implementing one or more traits;
-- Specified inside angle brackets (`<>`);
-- Can be used in structs, enums, functions, methods, and impl blocks.
-
-```rust
-// Any type
-struct Point<T> {
-    x: T,
-    y: T,
-}
-
-// `impl<T>` is required to use `T` in the following block
-impl<T> Point<T> {
-    fn new(x: T, y: T) -> Self {
-        Point { x, y }
-    }
-}
-
-// Only types implementing the `Ord` trait
-fn sort<T: Ord>(list: &mut [T]) {
-    // ...
-}
-
-// Multiple generic types
-enum ComputationResult<T, E> {
-    Success(T),
-    Failure(E),
-}
-```
-
 ## `enum` vs `struct`
 
 - Enums are types that always result in one of a few variants (like an `OR`);
@@ -115,11 +43,43 @@ fn main() {
 }
 ```
 
+## Generics
+
+- Define any data type, or ones implementing one or more traits;
+- Specified inside angle brackets (`<>`);
+- Can be used in structs, enums, functions, methods, and impl blocks.
+
+```rust
+// Any type
+struct Point<T> {
+    x: T,
+    y: T,
+}
+
+// `impl<T>` is required to use `T` in the following block
+impl<T> Point<T> {
+    fn new(x: T, y: T) -> Self {
+        Point { x, y }
+    }
+}
+
+// Only types implementing the `Ord` trait
+fn sort<T: Ord>(list: &mut [T]) {
+    // ...
+}
+
+// Multiple generic types
+enum ComputationResult<T, E> {
+    Success(T),
+    Failure(E),
+}
+```
+
 ## Lifetime
 
 - Lifetime is the scope for which a variable is valid;
 - A single quote (`'`) is used to specify the lifetime of a variable;
-- Can be generic (declared like a generic type).
+- Can be generic (declared like a generic type);
 - If not explicitly declared, the compiler infers the lifetime of a variable
   (implicit).
 
@@ -141,5 +101,45 @@ fn main() {
     // `name` is valid for the entire program (explicit)
     let name: &'static str = "John";
     println!("{}", name);
+}
+```
+
+## `String` vs `str`
+
+- `String` is a **mutable**, **growable** heap-allocated string, implemented by
+  a struct wrapping a `Vec<u8>`;
+- `str` is an **immutable**, **fixed length** string slice.
+
+## `trait`
+
+- Collection of methods;
+- Contains functions declarations & default implementations;
+- Can be implemented by any type.
+
+```rust
+trait Animal<'a> {
+    // Method declarations
+    fn new(name: &'a str) -> Self;
+    
+    // Method definitions with default implementation
+    fn move(&self, destination: &'a str) {
+        println!("{} moves to {}", self.name, destination);
+    }
+}
+
+struct Horse<'a> {
+    name: &'a str,
+}
+
+impl<'a> Animal<'a> for Horse<'a> {
+    // Define the methods declared in the trait
+    fn new(name: &'a str) -> Horse<'a> {
+        Horse { name: name }
+    }
+    
+    // Override the default implementation
+    fn move(&self, destination: &'a str) {
+        println!("{} gallops to {}", self.name, destination);
+    }
 }
 ```
