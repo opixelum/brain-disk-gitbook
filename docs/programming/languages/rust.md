@@ -39,3 +39,35 @@ impl Animal for Horse {
     }
 }
 ```
+
+## Generics
+
+- Define any data type, or ones implementing one or more traits;
+- Specified inside angle brackets (`<>`);
+- Can be used in structs, enums, functions, methods, and impl blocks.
+
+```rust
+// Any type
+struct Point<T> {
+    x: T,
+    y: T,
+}
+
+// `impl<T>` is required to use `T` in the following block
+impl<T> Point<T> {
+    fn new(x: T, y: T) -> Self {
+        Point { x, y }
+    }
+}
+
+// Only types implementing the `Ord` trait
+fn sort<T: Ord>(list: &mut [T]) {
+    // ...
+}
+
+// Multiple generic types
+enum ComputationResult<T, E> {
+    Success(T),
+    Failure(E),
+}
+```
