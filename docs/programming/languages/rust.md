@@ -71,3 +71,47 @@ enum ComputationResult<T, E> {
     Failure(E),
 }
 ```
+
+## `enum` vs `struct`
+
+- Enums are types that always result in one of a few variants (like an `OR`);
+- Structs are types that each instance can have different properties (like an
+  `AND`);
+- Enums are useful for match statements, structs are useful for storing data.
+
+```rust
+
+enum MessageStatus {
+    Read,
+    Unread,
+    Deleted,
+}
+
+struct Message {
+    status: MessageStatus,
+    content: String,
+}
+
+fn main() {
+    // `message` = `Message` struct instance containing multiple properties
+    let message = Message {
+        // `status` is either `Read` or `Unread`
+        status: MessageStatus::Unread,
+        content: String::from("Hello, world!"),
+    };
+    
+    // Every variant of an enum should be evaluated in a match statement
+    match message.status {
+        MessageStatus::Read => println!("Message read"),
+        MessageStatus::Unread => println!("Message unread"),
+        MessageStatus::Deleted => println!("Message deleted"),
+    }
+    
+    // A catch-all match statement can be used to ignore some variants
+    match message.status {
+        MessageStatus::Read => println!("Message read"),
+        // Ignore `Unread` & `Deleted` variants
+        _ => println!("Unknown behavior"),
+    }
+}
+```
