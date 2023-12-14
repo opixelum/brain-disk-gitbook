@@ -77,6 +77,7 @@
   * [C](programming/languages/c.md)
   * [Go](programming/languages/go.md)
   * [Java](programming/languages/java.md)
+  * [Rust](programming/languages/rust.md)
   * [Solidity](programming/languages/solidity.md)
 * [Make](programming/make.md)
 * [Paradigms](programming/paradigms)
