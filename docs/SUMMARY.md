@@ -49,6 +49,7 @@
 
 ## Mathematics
 
+* [Graph Theory](mathematics/graph-theory.md)
 * [Maths for Big Data](mathematics/maths-big-data.md)
 * [Maths for Computer Science](mathematics/maths-computer-science.md)
 
