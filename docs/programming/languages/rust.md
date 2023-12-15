@@ -3,6 +3,7 @@
 ## Attributes
 
 - Metadata applied to some module, crate, or item;
+- Written as `#[attribute]`;
 - Used to:
   - Conditional compilation of code;
   - Set crate name, version, author, and type (binary or library);
@@ -58,6 +59,11 @@ impl<T: PartialEq> PartialEq for Foo<T> {
     }
 }
 ```
+
+## `dyn`
+
+- `dyn` is a keyword used to specify a trait object;
+- 
 
 ## `enum` vs `struct`
 
