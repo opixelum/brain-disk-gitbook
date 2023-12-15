@@ -1,5 +1,29 @@
 # Rust
 
+## Derive
+
+- Derive is an [attribute](#attribute);
+- Automatically implements some traits for a type, saving us from writing
+  boilerplate code.
+
+```rust
+#[derive(PartialEq)]
+struct Foo<T> {
+    a: i32,
+    b: T,
+}
+```
+
+This is equivalent to:
+
+```rust
+impl<T: PartialEq> PartialEq for Foo<T> {
+    fn eq(&self, other: &Foo<T>) -> bool {
+        self.a == other.a && self.b == other.b
+    }
+}
+```
+
 ## `enum` vs `struct`
 
 - Enums are types that always result in one of a few variants (like an `OR`);
