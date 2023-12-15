@@ -1,8 +1,43 @@
 # Rust
 
+## Attributes
+
+- Metadata applied to some module, crate, or item;
+- Used to:
+  - Conditional compilation of code;
+  - Set crate name, version, author, and type (binary or library);
+  - Disable lints (warnings);
+  - Enable compiler features (macros, glob imports, etc.);
+  - Link to a foreign library;
+  - Mark functions as unit tests;
+  - Mark functions that will be part of a benchmark;
+  - Mark the entry point of the program;
+  - ...
+
+Some examples:
+
+```rust
+// `#[derive(Debug)]` automatically implements the `Debug` trait
+#[derive(Debug)]
+struct Foo {
+    a: i32,
+    b: i32,
+}
+
+// `#[cfg(test)]` marks the following module as a test module
+#[cfg(test)
+mod tests {
+    // `#[test]` marks the following function as a unit test
+    #[test]
+    fn test_foo() {
+        // ...
+    }
+}
+```
+
 ## Derive
 
-- Derive is an [attribute](#attribute);
+- Derive is an [attribute](#attributes);
 - Automatically implements some traits for a type, saving us from writing
   boilerplate code.
 
