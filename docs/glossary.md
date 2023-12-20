@@ -57,16 +57,22 @@ as a distributed ledger.
 Entity that stores, signs & issues
 [digital certificates](#digital-certificate).
 
+### Client Relationship Management (CRM)
+
+Technology for managing all your company's relationships and interactions with
+customers and potential customers.
+
 ### Consensus
 
 General agreement. In decentralized systems, it brings nodes back in sync. To
 reach consensus, mechanisms such as proof-of-work, proof-of-stake and more are
 used.
 
-### Client Relationship Management (CRM)
+### Convolutional Neural Network (CNN)
 
-Technology for managing all your company's relationships and interactions with
-customers and potential customers.
+Type of [neural network](#neural-network) processing
+[grid-like data](#grid-like-data) (images, time-series, spectrograms, ...) for
+[recognition](#recognition) & [classification](#classification).
 
 ## D
 
