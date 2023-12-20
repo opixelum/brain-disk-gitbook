@@ -194,6 +194,12 @@ Practice of collaboration between data scientists and operations professionals
     32-bits number that miners need to find, for finding the next block hash
     and getting rewarded.
 
+### Neural Network
+
+Computational framework inspired by the human brain, composed of interconnected
+nodes (neurons) that process and relay information from one layer to the next.
+Its structure allows it to effectively learn and adapt to complex data patterns.
+
 ## O
 
 ### Object-oriented programming
