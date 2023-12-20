@@ -13,7 +13,8 @@
 * [Introduction to Artificial Intelligence](artificial-intelligence/introduction.md)
 * [Machine Learning](artificial-intelligence/machine-learning.md)
 * [Deep Learning](artificial-intelligence/deep-learning.md)
-* [Neural Networks](artificial-intelligence/neural-networks.md)
+* [Neural Networks](artificial-intelligence/neural-networks/neural-networks.md)
+  * [Convolutional Neural Networks (CNN)](artificial-intelligence/neural-networks/cnn.md)
 
 ## Blockchain
 
