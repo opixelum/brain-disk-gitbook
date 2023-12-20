@@ -259,6 +259,13 @@ that can be used only to encode messages.
 
 ## R
 
+### Recognition
+
+Subfield of classification, for identifying a specific instance of an object
+within a class.
+E.g.: given a picture of a dog,
+the algorithm predicts that the picture is a dog of a specific breed.
+
 ### Register
 
 Quickly accessible memory location in a CPU that stores data for arithmetic
