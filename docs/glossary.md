@@ -125,6 +125,13 @@ methods into a single unit, frequently in the form of class.
 Computer software that provides the low-level control for a device's specific
 hardware.
 
+## G
+
+### Grid-like Data
+
+Multidimensional data that can be represented as a grid of values, such as
+images with pixels, audio spectrograms with time & frequency, etc.
+
 ## I
 
 ### Inflation
