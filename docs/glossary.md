@@ -57,6 +57,12 @@ as a distributed ledger.
 Entity that stores, signs & issues
 [digital certificates](#digital-certificate).
 
+### Classification
+
+Process of predicting the class of given data points.
+E.g.: given a picture of a dog,
+the algorithm predicts that the picture is a dog.
+
 ### Client Relationship Management (CRM)
 
 Technology for managing all your company's relationships and interactions with
