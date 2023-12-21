@@ -8,8 +8,8 @@
 
 ### Abstraction
 
-Key concept of object-oriented programming, that refers to handle complexity
-by hiding unnecessary details from the user.
+Key concept of object-oriented programming that refers to handle complexity by
+hiding unnecessary details from the user.
 
 ### Application Programming Interface (API)
 
@@ -19,7 +19,8 @@ another application or service.
 ### Application software
 
 Program designed to do a specific task other than an operation for the computer
-itself, like user-oriented tasks. Example: text editor, media player, ...
+itself, like user-oriented tasks.
+Example: text editor, media player, etc.
 
 ## B
 
@@ -31,13 +32,13 @@ computer, product, embedded device, or its embodiment.
 ### Basic Input Output System (BIOS)
 
 [Firmware](#firmware) used to provide runtime services for
-[OS](#operating-system-os) & programs & to perform hardware initialization
+[OS](#operating-system-os) and programs and to perform hardware initialization
 during the booting process.
 
 ### Big Data
 
-Field that treats ways to extract, store, analyse & process for creating value
-for an organization, meeting the 5 V's: volume, velocity, variety, veracity &
+Field that treats ways to extract, store, analyze and process for creating value
+for an organization, meeting the 5 V's: volume, velocity, variety, veracity and
 value.
 
 ### Bitmask
@@ -54,7 +55,7 @@ as a distributed ledger.
 
 ### Certificate Authority (CA)
 
-Entity that stores, signs & issues
+Entity that stores, signs and issues
 [digital certificates](#digital-certificate).
 
 ### Classification
@@ -76,9 +77,9 @@ used.
 
 ### Convolutional Neural Network (CNN)
 
-Type of [neural network](#neural-network) processing
-[grid-like data](#grid-like-data) (images, time-series, spectrograms, ...) for
-[recognition](#recognition) & [classification](#classification).
+Type of [neural network](#neural-network) processing [grid-like data](#grid-like-data)
+(images, time-series, spectrograms, ...) for [recognition](#recognition) and
+[classification](#classification).
 
 ## D
 
@@ -94,13 +95,13 @@ organization, designed to support business decisions.
 
 ### Decentralization
 
-Process of distributing or dispersing functions, powers, people or things
-away from a central location or authority.
+Process of distributing or dispersing functions, powers, people or things away
+from a central location or authority.
 
 ### Delegate call (Solidity)
 
 Type of function call in Solidity that allows to execute code of another
-contract while preserving the current context (storage, caller, value, ...).
+contract while preserving the current context (storage, caller, value, etc.).
 Often used to implement proxy contracts.
 
 ### Digital certificate
@@ -121,8 +122,8 @@ Standards specifying potential new features or processes for Ethereum.
 
 ### Encapsulation
 
-Key concept of object-oriented programming, that refers to bundle data &
-methods into a single unit, frequently in the form of class.
+Key concept of object-oriented programming that refers to bundle data and
+methods into a single unit frequently in the form of class.
 
 ## F
 
@@ -136,19 +137,20 @@ hardware.
 ### Grid-like Data
 
 Multidimensional data that can be represented as a grid of values, such as
-images with pixels, audio spectrograms with time & frequency, etc.
+images with pixels, audio spectrograms with time and frequency, etc.
 
 ## I
 
 ### Inflation
 
-General increase in the price level of goods and services in an economy. It is
-caused by a decrease in the purchasing power of money. This decrease can be
-caused by an increase in the amount of money in circulation (printing money).
+General increase in the price level of goods and services in the economy.
+It is caused by a decrease in the purchasing power of money.
+This decrease can be caused by an increase in the amount of money in circulation
+(printing money).
 
 ### Inheritance
 
-Key concept of object-oriented programming, that refers to derive a class from
+Key concept of object-oriented programming that refers to deriving a class from
 other classes.
 
 ### Interrupt
@@ -157,9 +159,10 @@ Request for the processor to interrupt currently executing code, by saving its
 state, then to execute an
 [interrupt handler](#interrupt-service-routine-isr-or-interrupt-handler)
 (or
-[Interrupt Service Routine](#interrupt-service-routine-isr-or-interrupt-handler)
-, or [ISR](#interrupt-service-routine-isr-or-interrupt-handler)), in order to
-execute another process.
+[Interrupt Service Routine](#interrupt-service-routine-isr-or-interrupt-handler),
+or
+[ISR](#interrupt-service-routine-isr-or-interrupt-handler)), to execute another
+process.
 
 ### Interrupt Service Routine (ISR or interrupt handler)
 
@@ -170,8 +173,8 @@ between protected modes of operation, such as system calls.
 
 ### Kernel
 
-Program at core of a computer's OS which has complete control over the system,
-for managing interactions between hardware and software components.
+Program at the core of a computer's OS which has complete control over the
+system, for managing interactions between hardware and software components.
 
 ## L
 
@@ -185,27 +188,21 @@ Pile of cryptocurrencies locked in a smart contract.
 
 ### Liquidity provider
 
-Person who fund a liquidity pool with assets.
+Person who funds a liquidity pool with assets.
 
 ## M
 
 ### MLOps
 
-Practice of collaboration between data scientists and operations professionals
+Practice of collaboration between data scientists and operation professionals
 (DevOps) to help manage the production machine learning lifecycle.
 
 ## N
 
 ### Nonce
 
-- _[general]_
-
-    Number used only once.
-
-- _[blockchain]_
-
-    32-bits number that miners need to find, for finding the next block hash
-    and getting rewarded.
+32-bit number that miners need to find, for finding the next block hash and
+getting rewarded.
 
 ### Neural Network
 
@@ -232,7 +229,7 @@ actionable intelligence.
 
 ### Open Web Application Security Project (OWASP)
 
-Online community that produces freely-available articles, methodologies,
+Online community that produces freely available articles, methodologies,
 documentation, tools, and technologies in the field of web application security.
 
 ## P
@@ -254,8 +251,8 @@ its sustainability.
 
 ### Public key
 
-Cryptographic element that is the publicity shared half of an encryption code &
-that can be used only to encode messages.
+Cryptographic element that is the publicity shared half of an encryption code
+and that can be used only to encode messages.
 
 ## R
 
