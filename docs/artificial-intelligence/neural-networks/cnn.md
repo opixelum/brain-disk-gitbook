@@ -2,19 +2,17 @@
 
 ## Definition
 
-A convolutional neural network is a type of feed-forward neural network that
-learns to extract attributes by itself from grid-like data (images, 2D data,
-etc.) via filters (kernels).
+* Type of [feed-forward neural network](https://opixelum.gitbook.io/brain-disk/artificial-intelligence/neural-networks/feed-forward-neural-network.md);
+* **Extract attributes** by from **grid-like data** (images, 2D data, etc.) via
+  **filters** (aka **kernels**).
 
-## Structure
-
-A convolutional neural network is composed of the following layers:
+## Layers
 
 ### Convolutional Layers
 
 - Most of the computation is done here;
 - Extracts attributes from the input data;
-- The Number of neurons is equal to the number of filters (kernels);
+- The number of neurons is equal to the number of filters (kernels);
 - Each neuron has a different kernel;
 - Each neuron processes a part of the input data (receptive field) at the time.
   When it is done with a receptive field, it moves to the next one;
