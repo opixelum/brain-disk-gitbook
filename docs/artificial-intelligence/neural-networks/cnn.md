@@ -26,7 +26,7 @@
   network;
 - Common methods are average and max pooling.
 
-![Example of Average and Max Pooling Methods [source](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)](../../.gitbook/assets/artificial-intelligence/neural-networks/cnn/pooling.webp)
+![Example of Average and Max Pooling Methods](../../.gitbook/assets/artificial-intelligence/neural-networks/cnn/pooling.webp)
 
 ### Fully Connected Layers
 
