@@ -10,11 +10,11 @@
 
 ## Artificial Intelligence
 
-* [Introduction to Artificial Intelligence](artificial-intelligence/introduction.md)
-* [Machine Learning](artificial-intelligence/machine-learning.md)
-* [Deep Learning](artificial-intelligence/deep-learning.md)
-* [Neural Networks](artificial-intelligence/neural-networks/neural-networks.md)
-  * [Convolutional Neural Networks (CNN)](artificial-intelligence/neural-networks/cnn.md)
+* [Introduction to Artificial Intelligence](ai/intro.md)
+* [Machine Learning](ai/ml.md)
+* [Deep Learning](ai/dl.md)
+* [Neural Networks](ai/nn/nn.md)
+  * [Convolutional Neural Networks (CNN)](ai/nn/cnn.md)
 
 ## Blockchain
 
@@ -29,10 +29,10 @@
   * [Proof of Authority (PoA)](blockchain/consensus-mechanisms/poa.md)
 * [Cryptocurrencies](blockchain/cryptocurrencies)
   * [Stablecoins](blockchain/cryptocurrencies/stablecoins.md)
-  * [Wrapped Tokens](blockchain/cryptocurrencies/wrapped_tokens.md)
+  * [Wrapped Tokens](blockchain/cryptocurrencies/wrapped-tokens.md)
 * [Oracles](blockchain/oracles.md)
 * [Scaling](blockchain/scaling.md)
-* [Smart Contracts](blockchain/smart-contracts/smart_contracts.md)
+* [Smart Contracts](blockchain/smart-contracts/smart-contracts.md)
   * [Diamond Pattern](blockchain/smart-contracts/diamond-pattern.md)
   * [Gas](blockchain/smart-contracts/gas.md)
 * [Decentralized Finance (DeFi)](blockchain/defi.md)
@@ -50,10 +50,10 @@
 
 ## Mathematics
 
-* [Graph Theory](mathematics/graph-theory.md)
-* [Linear Programming](mathematics/linear-programming.md)
-* [Maths for Big Data](mathematics/maths-big-data.md)
-* [Maths for Computer Science](mathematics/maths-computer-science.md)
+* [Graph Theory](maths/graph-theory.md)
+* [Linear Programming](maths/linear-programming.md)
+* [Maths for Big Data](maths/maths-big-data.md)
+* [Maths for Computer Science](maths/maths-computer-science.md)
 
 ## Networking
 
@@ -92,7 +92,7 @@
 ## Systems
 
 * [File Systems](systems/file-systems.md)
-* [Operating Systems](systems/operating-systems.md)
+* [Operating Systems](systems/os.md)
 * [Virtualization](systems/virtualization.md)
 
 ## DevOps

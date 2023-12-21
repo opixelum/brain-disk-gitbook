@@ -25,7 +25,7 @@ facets).
 - A diamond can have multiple facets, and **a facet can be used by multiple
 diamonds**.
 
-![Two diamonds using the same two facets](../../.gitbook/assets/facet-reuse.png)
+![Two diamonds using the same two facets](../../.gitbook/assets/blockchain/smart-contracts/diamond-pattern/facet-reuse.png)
 
 ## Benefits
 
@@ -43,7 +43,7 @@ diamonds**.
 first 4 bytes of the function call and uses it as a key to find the facet that
 implements the function.
 
-![Structure of a diamond](../../.gitbook/assets/diamond-structure.png)
+![Structure of a diamond](../../.gitbook/assets/blockchain/smart-contracts/diamond-pattern/diamond-structure.png)
 
 - **All diamonds must implement the `IDiamond` interface.** This interface
 contains the **event `DiamondCut` that must be emitted when any external**
@@ -134,7 +134,7 @@ facet.
 the diamond.
 8. Finally, the result is returned to the caller.
 
-![Diamond pattern call sequence diagram](../../.gitbook/assets/diamond-pattern-call-sequence-diagram.svg)
+![Diamond pattern call sequence diagram](../../.gitbook/assets/blockchain/smart-contracts/diamond-pattern/diamond-pattern-call-sequence-diagram.svg)
 
 ## References
 

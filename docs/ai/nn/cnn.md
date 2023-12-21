@@ -19,7 +19,7 @@
 - After a neuron has processed the whole input data, it results in a feature
   map.
 
-![Convolution Operation](../../.gitbook/assets/artificial-intelligence/neural-networks/cnn/convolution.webp)
+![Convolution Operation](../../.gitbook/assets/ai/nn/cnn/convolution.webp)
 
 ### Pooling Layers
 
@@ -28,11 +28,9 @@
   network;
 - Common methods are average and max pooling.
 
-![Example of Average and Max Pooling Methods](../../.gitbook/assets/artificial-intelligence/neural-networks/cnn/pooling.webp)
+![Example of Average and Max Pooling Methods](../../.gitbook/assets/ai/nn/cnn/pooling.webp)
 
 ### Fully Connected Layers
-
-### Convolutional Layer
 
 ## References
 

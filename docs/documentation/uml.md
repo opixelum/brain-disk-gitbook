@@ -16,21 +16,21 @@ A class diagram is a static view of a system. It shows the classes of the
 system, their attributes, operations (or methods), and the relationships
 between objects.
 
-![Example of a class diagram](../.gitbook/assets/class-diagram.png)
+![Example of a class diagram](../.gitbook/assets/documentation/uml/class-diagram.png)
 
 ### Sequence Diagram
 
 A sequence diagram shows interactions between objects in a system. It shows
 which messages are sent to which objects and in what order.
 
-![Example of a sequence diagram](../.gitbook/assets/sequence-diagram.png)
+![Example of a sequence diagram](../.gitbook/assets/documentation/uml/sequence-diagram.png)
 
 ### Package Diagram
 
 A package diagram shows the packages of a system and the relationships between
 them.
 
-![Example of a package diagram](../.gitbook/assets/package-diagram.png)
+![Example of a package diagram](../.gitbook/assets/documentation/uml/package-diagram.png)
 
 ### Use Case Diagram
 
@@ -39,7 +39,7 @@ them.
 - Actors can be real persons or other systems;
 - For a system, there are as many use case diagrams as package programs.
 
-![Example of a use case diagram](../.gitbook/assets/use-case-diagram.png)
+![Example of a use case diagram](../.gitbook/assets/documentation/uml/use-case-diagram.png)
 
 On the left: main actors. On the right: secondary actors;
 
@@ -49,12 +49,12 @@ On the left: main actors. On the right: secondary actors;
 An activity diagram shows the flow of control in a system. It shows the
 activities of a system and the control flow between them.
 
-![Example of a activity diagram](../.gitbook/assets/activity-diagram.png)
+![Example of a activity diagram](../.gitbook/assets/documentation/uml/activity-diagram.png)
 
 ### State Machine Diagram
 
 A state machine diagram shows the states of an object and the transitions
 between those states.
 
-![Example of a state machine diagram](../.gitbook/assets/state-machine-diagram.png)
+![Example of a state machine diagram](../.gitbook/assets/documentation/uml/state-machine-diagram.png)
 
