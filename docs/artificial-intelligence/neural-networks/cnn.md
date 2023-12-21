@@ -40,5 +40,6 @@
 * [MATLAB & Simulink—What Is a Convolutional Neural Network?](https://www.mathworks.com/discovery/convolutional-neural-network-matlab.html)
 * [Nvidia—Convolutional Neural Networks](https://www.nvidia.com/en-us/glossary/data-science/convolutional-neural-network/)
 * [TechTarget—convolutional neural network (CNN)](https://www.techtarget.com/searchenterpriseai/definition/convolutional-neural-network)
+* [TowardsDataScience—A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 * [TowardsDataScience—Convolutional Neural Networks, Explained](https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939)
 * [Wikipedia—Convolutional neural network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
