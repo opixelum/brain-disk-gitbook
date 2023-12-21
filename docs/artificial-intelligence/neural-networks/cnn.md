@@ -19,6 +19,8 @@
 - After a neuron has processed the whole input data, it results in a feature
   map.
 
+![Convolution Operation](../../.gitbook/assets/artificial-intelligence/neural-networks/cnn/convolution.webp)
+
 ### Pooling Layers
 
 - Reduces the spatial dimension of the input data;
