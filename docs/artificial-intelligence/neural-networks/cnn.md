@@ -21,6 +21,13 @@
 
 ### Pooling Layers
 
+- Reduces the spatial dimension of the input data;
+- Helps reduce the number of parameters and computational complexity in the
+  network;
+- Common methods are average and max pooling.
+
+![Example of Average and Max Pooling Methods](../../.gitbook/assets/artificial-intelligence/neural-networks/cnn/pooling.jpg)
+
 ### Fully Connected Layers
 
 ### Convolutional Layer
