@@ -14,7 +14,7 @@
 * [Machine Learning](ai/ml.md)
 * [Deep Learning](ai/dl.md)
 * [Neural Networks](ai/nn/nn.md)
-  * [Convolutional Neural Networks (CNN)](ai/nn/cnn.md)
+  * [Convolutional Neural Network (CNN)](ai/nn/cnn.md)
 
 ## Blockchain
 
