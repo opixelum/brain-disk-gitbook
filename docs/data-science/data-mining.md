@@ -265,7 +265,7 @@ where:
 - `e` is the error term: the difference between the observed value of `y` and
 the predicted value of `y`
 
-![Linear regression graphic](../.gitbook/data-science/data-mining/linear-regression-graphic.png)
+![Linear regression graphic](../.gitbook/assets/data-science/data-mining/linear-regression-graphic.png)
 
 #### Logistic Regression
 
