@@ -77,6 +77,9 @@ learning, it has multiple hidden layers.
 
 ## Learning (Training)
 
+Process of updating the weights and biases of a neural network to minimize the
+error between the predicted and the actual output.
+
 ### Backpropagation
 
 - Calculates the gradient of the loss function with respect to the weights of
