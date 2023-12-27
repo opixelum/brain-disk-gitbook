@@ -19,7 +19,7 @@ learning, it has multiple hidden layers.
 ![Mathematical model of a neuron. Source: 3Blue1Brown](../../.gitbook/assets/ai/nn/neuron.png)
 
 - **σ** is the activation function (sigmoid in the example, but it can be
-  another like ReLU, tanh, etc.); 
+  another like ReLU, TanH, etc.); 
 - **W** is the weight;
 - **a** is the input;
 - **b** is the bias.
@@ -75,8 +75,21 @@ learning, it has multiple hidden layers.
 
 - Similar to sigmoid, but the output range is -1 to 1.
 
+## Learning (Training)
+
+### Backpropagation
+
+- Calculates the gradient of the loss function with respect to the weights of
+  the network for a single input-output pair;
+- Utilizes derivatives calculated by the chain rule to efficiently determine how
+  a change in the network weights will affect the overall error;
+- The weights are updated using the gradient descent algorithm.
+
 ## References
 
 - [AI Wiki—Weights and Biases](https://machine-learning.paperspace.com/wiki/weights-and-biases)
+- [Builtin—How Does Backpropagation in a Neural Network Work?](https://builtin.com/machine-learning/backpropagation-neural-network)
+- [DeepAI—What is Backpropagation?](https://deepai.org/machine-learning-glossary-and-terms/backpropagation)
 - [DeepAI—What is the Sigmoid Function?](https://deepai.org/machine-learning-glossary-and-terms/sigmoid-function)
 - [Encord—Activation Functions in Neural Networks: With 15 examples](https://encord.com/blog/activation-functions-neural-networks)
+- [Neptune—A Comprehensive Guide to the Backpropagation Algorithm in Neural Networks](https://neptune.ai/blog/backpropagation-algorithm-in-neural-networks-guide)
