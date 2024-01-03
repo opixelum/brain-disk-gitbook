@@ -82,11 +82,12 @@ error between the predicted and the actual output.
 
 ### Backpropagation
 
-- Calculates the gradient of the loss function with respect to the weights of
-  the network for a single input-output pair;
-- Utilizes derivatives calculated by the chain rule to efficiently determine how
-  a change in the network weights will affect the overall error;
-- The weights are updated using the gradient descent algorithm.
+- **Loss function**: measures the difference between the predicted and the
+  actual output.
+  A high value means the model is not performing well;
+- **Optimization algorithm**: updates the weights and biases of the network to
+  **minimize the loss function**.
+  Examples are gradient descent, RMSProp or Adam.
 
 ## References
 
