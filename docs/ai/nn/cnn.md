@@ -39,6 +39,7 @@
 - [FreeCodeCamp—What Is a Convolutional Neural Network? A Beginner's Tutorial for Machine Learning and Deep Learning](https://www.freecodecamp.org/news/convolutional-neural-network-tutorial-for-beginners/)
 - [MATLAB & Simulink—What Is a Convolutional Neural Network?](https://www.mathworks.com/discovery/convolutional-neural-network-matlab.html)
 - [Nvidia—Convolutional Neural Networks](https://www.nvidia.com/en-us/glossary/data-science/convolutional-neural-network/)
+- [Shervine Amidi—Convolutional Neural Networks cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
 - [TechTarget—convolutional neural network (CNN)](https://www.techtarget.com/searchenterpriseai/definition/convolutional-neural-network)
 - [TowardsDataScience—A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 - [TowardsDataScience—Convolutional Neural Networks, Explained](https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939)
