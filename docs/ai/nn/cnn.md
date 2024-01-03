@@ -32,6 +32,12 @@
 
 ### Fully Connected Layers
 
+- Used to classify the extracted features;
+- Each neuron is connected to all the neurons in the previous layer;
+- Needs a flattened input (1D array).
+
+![Fully Connected Layer | Source: Diego Unzueta](../../.gitbook/assets/ai/nn/cnn/fully-connected-layer.jpg)
+
 ## References
 
 - [DataCamp—An Introduction to Convolutional Neural Networks (CNNs)](https://www.datacamp.com/tutorial/introduction-to-convolutional-neural-networks-cnns)
