@@ -75,7 +75,7 @@ learning, it has multiple hidden layers.
 
 - Similar to sigmoid, but the output range is -1 to 1.
 
-## Learning (Training)
+## Learning (Training or Fitting)
 
 Process of updating the weights and biases of a neural network to minimize the
 error between the predicted and the actual output.
@@ -88,6 +88,14 @@ error between the predicted and the actual output.
 - **Optimization algorithm**: updates the weights and biases of the network to
   **minimize the loss function**.
   Examples are gradient descent, RMSProp or Adam.
+
+### Overfitting/Underfitting
+
+- **Overfitting**: dataset is too small, or the model is too complex, so the
+  model learns the training data too well and is not able to generalize to new
+  data;
+- **Underfitting**: model is too simple, so it is not able to learn the training
+  data, letting room for improvement.
 
 ## References
 
