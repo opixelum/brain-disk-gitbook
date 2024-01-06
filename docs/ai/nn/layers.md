@@ -31,3 +31,8 @@
 - Used to classify the extracted features;
 - Each neuron is connected to all the neurons in the previous layer;
 - Needs a flattened input (1D array).
+
+
+## References
+
+- [TensorFlow—Image classification](https://www.tensorflow.org/tutorials/images/classification)
