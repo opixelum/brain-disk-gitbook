@@ -1,5 +1,7 @@
 # Backpropagation
 
+## Definition
+
 - Learning algorithm for neural networks;
 - Updates the weights for better predictions.
 
