@@ -1,18 +1,5 @@
 # Deep Learning Markdown Cheat Sheet
 
-## Table of Contents
-
-- [Deep Learning Markdown Cheat Sheet](#deep-learning-markdown-cheat-sheet)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Neural Networks Basics](#neural-networks-basics)
-  - [Activation Functions](#activation-functions)
-  - [Training](#training)
-  - [Regularization](#regularization)
-  - [Optimizers](#optimizers)
-  - [Architectures](#architectures)
-  - [Frameworks](#frameworks)
-
 ## Introduction
 
 Deep Learning is a subset of machine learning, focusing on neural networks with many layers.
