@@ -11,6 +11,8 @@ provide your knowledge to the world.
 
 You can find cheat sheets about:
 
+- [Algorithmic](docs/algorithmic)
+- [Artificial Intelligence](docs/ai)
 - [Blockchain](docs/blockchain)
 - [Data Science](docs/data-science)
 - [Documentation](docs/documentation)

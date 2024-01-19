@@ -9,6 +9,8 @@ provide your knowledge to the world.
 
 You can find cheat sheets about:
 
+- [Algorithmic](https://opixelum.gitbook.io/brain-disk/algorithmic)
+- [Artificial Intelligence](https://opixelum.gitbook.io/brain-disk/artificial-intelligence)
 - [Blockchain](https://opixelum.gitbook.io/brain-disk/blockchain)
 - [Data Science](https://opixelum.gitbook.io/brain-disk/data-science)
 - [Documentation](https://opixelum.gitbook.io/brain-disk/documentation)
