@@ -22,6 +22,11 @@ Nombre réel ou complexe, multiplié à un vecteur.
 
 Expression formée de la somme de vecteurs multipliés par des scalaires.
 
+### Norme
+
+Mesure de la longueur d'un vecteur, notée
+$$text{\textbardbl}\vec{v}text{\textbardbl}$$.
+
 ## Famille de Vecteurs
 
 ### Famille liée
