@@ -22,11 +22,6 @@ Nombre réel ou complexe, multiplié à un vecteur.
 
 Expression formée de la somme de vecteurs multipliés par des scalaires.
 
-### Norme
-
-Mesure de la longueur d'un vecteur, notée
-$$||\vec{v}||$$.
-
 ## Famille de Vecteurs
 
 ### Famille liée
@@ -46,3 +41,16 @@ Ensemble de vecteurs où tout vecteur est combinaison linéaire des autres.
 ### Base
 
 Famille libre et génératrice.
+
+## Norme et Produit Scalaire
+
+### Norme
+
+Mesure de la longueur d'un vecteur, notée
+$$||\vec{v}||$$.
+
+### Produit Scalaire
+
+Somme des produits des composantes de deux vecteurs de même dimension,
+noté $$\vec{u} \cdot \vec{v} = \sum_{i=1}^n u_i v_i$$, où $$n$$ est la
+dimension des vecteurs.
