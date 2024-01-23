@@ -57,6 +57,7 @@
 * [Math for Big Data](math/math-big-data.md)
 * [Math for Computer Science](math/math-computer-science.md)
 * [Linear Algebra](math/linear-algebra/linear-algebra.md)
+  * [Vectors](math/linear-algebra/vectors.md)
 
 ## Networking
 
