@@ -52,10 +52,11 @@
 
 ## Mathematics
 
-* [Graph Theory](maths/graph-theory.md)
-* [Linear Programming](maths/linear-programming.md)
-* [Maths for Big Data](maths/maths-big-data.md)
-* [Maths for Computer Science](maths/maths-computer-science.md)
+* [Graph Theory](math/graph-theory.md)
+* [Linear Programming](math/linear-programming.md)
+* [Math for Big Data](math/math-big-data.md)
+* [Math for Computer Science](math/math-computer-science.md)
+* [Linear Algebra](math/linear-algebra/linear-algebra.md)
 
 ## Networking
 
