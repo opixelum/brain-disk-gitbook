@@ -4,4 +4,5 @@
 
 ### Vecteur
 
-*n*-uplet de *n* nombres réels appelés *composantes*, noté $\vec{v}= \begin{pmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{pmatrix}$
+$$n$$-uplet de $$n$$ nombres réels appelés *composantes*, noté
+$$\vec{v} \doteqdot \begin{pmatrix} x_1 \\ \vdots \\ x_n \end{pmatrix}$$.
