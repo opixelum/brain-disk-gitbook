@@ -1,5 +1,7 @@
 # Linear Programming
 
+## Graphical Method
+
 ## Simplex Algorithm
 
 ### Table Method
@@ -13,3 +15,5 @@
 
 - Slower than the graphical method (more verbose);
 - More semantically clear than the table method;
+
+## Branch and Bound
