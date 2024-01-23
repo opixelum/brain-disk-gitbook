@@ -16,7 +16,6 @@ You can find cheat sheets about:
 - [Documentation](https://opixelum.gitbook.io/brain-disk/documentation)
 - [Systems](https://opixelum.gitbook.io/brain-disk/systems)
 - [Programming](https://opixelum.gitbook.io/brain-disk/programming)
-- [Cybersecurity](https://opixelum.gitbook.io/brain-disk/cybersecurity)
 - and more in the future...
 
 **Feel free to contribute** to this project by creating a pull request on

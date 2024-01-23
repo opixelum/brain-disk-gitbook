@@ -18,7 +18,6 @@ You can find cheat sheets about:
 - [Documentation](docs/documentation)
 - [Systems](docs/systems)
 - [Programming](docs/programming)
-- [Cybersecurity](docs/cybersecurity)
 - and more in the future...
 
 **Feel free to contribute** to this project by creating a pull request on

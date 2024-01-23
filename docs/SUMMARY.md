@@ -101,18 +101,28 @@
 
 * [Docker](containerization/docker.md)
 
-## Cybersecurity
+[//]: # (## Cybersecurity)
 
-* [Introduction to Cybersecurity](cybersecurity/introduction.md)
-* [Binary Exploitation](cybersecurity/binary-exploitation.md)
-* [Cryptanalysis](cybersecurity/cryptanalysis.md)
-* [Forensic](cybersecurity/forensic.md)
-* [Linux Security](cybersecurity/linux.md)
-* [Network Security](cybersecurity/network.md)
-* [Programming & Automation](cybersecurity/programming-automation.md)
-* [Reverse Engineering](cybersecurity/reverse-engineering.md)
-* [Steganography](cybersecurity/stenagography.md)
-* [Web Security](cybersecurity/web.md)
+[//]: # ()
+[//]: # (* [Introduction to Cybersecurity]&#40;cybersecurity/introduction.md&#41;)
+
+[//]: # (* [Binary Exploitation]&#40;cybersecurity/binary-exploitation.md&#41;)
+
+[//]: # (* [Cryptanalysis]&#40;cybersecurity/cryptanalysis.md&#41;)
+
+[//]: # (* [Forensic]&#40;cybersecurity/forensic.md&#41;)
+
+[//]: # (* [Linux Security]&#40;cybersecurity/linux.md&#41;)
+
+[//]: # (* [Network Security]&#40;cybersecurity/network.md&#41;)
+
+[//]: # (* [Programming & Automation]&#40;cybersecurity/programming-automation.md&#41;)
+
+[//]: # (* [Reverse Engineering]&#40;cybersecurity/reverse-engineering.md&#41;)
+
+[//]: # (* [Steganography]&#40;cybersecurity/stenagography.md&#41;)
+
+[//]: # (* [Web Security]&#40;cybersecurity/web.md&#41;)
 
 ## Soft Skills
 
