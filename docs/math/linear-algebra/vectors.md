@@ -52,5 +52,8 @@ $$||\vec{v}||$$.
 ### Produit Scalaire
 
 Somme des produits des composantes de deux vecteurs de même dimension,
-noté $$\vec{u} \cdot \vec{v} = \sum_{i=1}^n u_i v_i$$, où $$n$$ est la
-dimension des vecteurs.
+noté:
+$$
+\vec{u} \cdot \vec{v} = \sum_{i=1}^n u_i v_i
+$$
+où $$n$$ est la dimension des vecteurs.
