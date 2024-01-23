@@ -37,3 +37,7 @@ On dit aussi que les vecteurs sont **linéairement indépendants**.
 ### Famille génératrice
 
 Ensemble de vecteurs où tout vecteur est combinaison linéaire des autres.
+
+### Base
+
+Famille libre et génératrice.
