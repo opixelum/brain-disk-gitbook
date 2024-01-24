@@ -1,7 +1,7 @@
 # Summary
 
-* [What is "Brain Disk"?](README.md)
-* [Glossary](glossary.md)
+* [What is "Brain Disk"?](./README.md)
+* [Glossary](./glossary.md)
 
 ## Algorithmic
 
@@ -14,11 +14,11 @@
 * [Machine Learning](ai/ml.md)
 * [Deep Learning](ai/dl.md)
 * [Neural Networks](ai/nn/nn.md)
+  * [Activation Functions](/docs/ai/nn/af.md)
   * [Backpropagation](ai/nn/backpropagation.md)
   * [Convolutional Neural Network (CNN)](ai/nn/cnn.md)
   * [Layers](ai/nn/layers.md)
   * [Perceptron](ai/nn/perceptron.md)
-  * [Activation Functions](/docs/ai/nn/af.md)
 
 ## Blockchain
 
@@ -63,7 +63,6 @@
 
 ## Networking
 
-* [Active Directory (AD)](networking/active-directory.md)
 * [Demilitarized Zone (DMZ)](networking/dmz.md)
 * [Virtual Private Network (VPN)](networking/vpn.md)
 
