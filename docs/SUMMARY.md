@@ -14,7 +14,7 @@
 * [Machine Learning](ai/ml.md)
 * [Deep Learning](ai/dl.md)
 * [Neural Networks](ai/nn/nn.md)
-  * [Activation Functions](/docs/ai/nn/af.md)
+  * [Activation Functions](ai/nn/af.md)
   * [Backpropagation](ai/nn/backpropagation.md)
   * [Convolutional Neural Network (CNN)](ai/nn/cnn.md)
   * [Layers](ai/nn/layers.md)
