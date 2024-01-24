@@ -18,6 +18,7 @@
   * [Convolutional Neural Network (CNN)](ai/nn/cnn.md)
   * [Layers](ai/nn/layers.md)
   * [Perceptron](ai/nn/perceptron.md)
+  * [Activation Functions](/docs/ai/nn/af.md)
 
 ## Blockchain
 
