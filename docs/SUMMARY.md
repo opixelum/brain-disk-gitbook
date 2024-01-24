@@ -17,6 +17,7 @@
   * [Backpropagation](ai/nn/backpropagation.md)
   * [Convolutional Neural Network (CNN)](ai/nn/cnn.md)
   * [Layers](ai/nn/layers.md)
+  * [Perceptron](ai/nn/perceptron.md)
 
 ## Blockchain
 
