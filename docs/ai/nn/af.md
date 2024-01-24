@@ -8,9 +8,19 @@
 
 ## Binary Step
 
-![Binary step activation function](../../.gitbook/assets/ai/nn/af/bs.jpg)
+![Binary step activation function. Source: CodeCademy.](../../.gitbook/assets/ai/nn/af/bs.png)
 
-## Rectified Linear Unit (ReLU) 
+$$
+f(x) = \begin{cases}
+    0 & for & x < 0 \\
+    1 & for & x \geq 0
+\end{cases}
+$$
+
+- Simplest threshold activation function;
+- Used for binary classification problems.
+
+## Rectified Linear Unit (ReLU)
 
 ![ReLU Activation Function](../../.gitbook/assets/ai/nn/af/relu.jpg)
 
@@ -38,4 +48,5 @@
 
 ## References
 
+- [CodeCademy—Binary Step Activation Function](https://www.codecademy.com/resources/docs/ai/neural-networks/binary-step-activation-function)
 - [SAGAR SHARMA—Activation Function in Neural Networks](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
