@@ -14,11 +14,15 @@
 * [Machine Learning](ai/ml.md)
 * [Deep Learning](ai/dl.md)
 * [Neural Networks](ai/nn/nn.md)
+  * [Known Neural Networks](ai/nn/known-nn/)
+    * [Convolutional Neural Network (CNN)](ai/nn/known-nn/cnn.md)
+    * [Multilayer Perceptron (MLP)](ai/nn/known-nn/mlp.md)
+    * [Perceptron](ai/nn/known-nn/perceptron.md)
+    * [Radial Basis Function (RBF)](ai/nn/known-nn/rbf.md)
+    * [Recurrent Neural Network (RNN)](ai/nn/known-nn/rnn.md)
   * [Activation Functions](ai/nn/af.md)
   * [Backpropagation](ai/nn/backpropagation.md)
-  * [Convolutional Neural Network (CNN)](ai/nn/cnn.md)
   * [Layers](ai/nn/layers.md)
-  * [Perceptron](ai/nn/perceptron.md)
 
 ## Blockchain
 
