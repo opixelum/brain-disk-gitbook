@@ -8,7 +8,10 @@
 
 ## Binary Step
 
-![Binary step activation function. Source: CodeCademy.](../../.gitbook/assets/ai/nn/af/bs.png)
+<img
+  alt="Binary step activation function. Source: CodeCademy."
+  src="../../.gitbook/assets/ai/nn/af/bs.png"
+  width="300">
 
 $$
 f(x) = \begin{cases}
@@ -22,7 +25,10 @@ $$
 
 ## Rectified Linear Unit (ReLU)
 
-![ReLU Activation Function](../../.gitbook/assets/ai/nn/af/relu.jpg)
+<img
+  alt="ReLU Activation Function"
+  src="../../.gitbook/assets/ai/nn/af/relu.jpg"
+  width="300">
 
 - **Sparse activation**: less neurons activated so less computation & identifies
   most relevant features;
@@ -35,14 +41,20 @@ $$
 
 ## Sigmoid (logistic)
 
-![Sigmoid Activation Function](../../.gitbook/assets/ai/nn/af/sigmoid.jpg)
+<img
+  alt="Sigmoid Activation Function"
+  src="../../.gitbook/assets/ai/nn/af/sigmoid.jpg"
+  width="300">
 
 - **Probabilistic interpretation**: maps the entire number line into a small
   range such as between 0 and 1;
 
 ## Hyperbolic Tangent (TanH)
 
-![TanH Activation Function](../../.gitbook/assets/ai/nn/af/tanh.jpg)
+<img
+  alt="TanH Activation Function"
+  src="../../.gitbook/assets/ai/nn/af/tanh.jpg"
+  width="300">
 
 - Similar to sigmoid, but the output range is -1 to 1.
 
