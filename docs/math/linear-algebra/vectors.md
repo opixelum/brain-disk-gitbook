@@ -23,6 +23,10 @@ Nombre réel ou complexe, multiplié à un vecteur.
 
 Expression formée de la somme de vecteurs multipliés par des scalaires.
 
+$$
+\sum_{i=1}^{p} \alpha_i \vec{u}_i = \alpha_1 \vec{u}_1 + \ldots + \alpha_p \vec{u}_p
+$$
+
 ## Famille de Vecteurs
 
 ### Famille liée
