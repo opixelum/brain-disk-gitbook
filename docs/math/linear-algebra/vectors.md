@@ -70,3 +70,8 @@ $$
 \vec{u} \cdot \vec{v} = \sum_{i=1}^n u_i v_i
 $$
 où $$n$$ est la dimension des vecteurs.
+
+### Vecteurs Orthogonaux
+
+Deux vecteurs sont dit **orthogonaux** s'ils sont perpendiculaires, c'est-à-dire
+si leur produit scalaire est nul.
