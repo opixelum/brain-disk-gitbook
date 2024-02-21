@@ -21,10 +21,11 @@ Nombre réel ou complexe, multiplié à un vecteur.
 
 ### Combinaison Linéaire
 
-Expression formée de la somme de vecteurs multipliés par des scalaires.
+Expression formée de la somme de vecteurs multipliés par des scalaires, notée :
 
 $$
-\sum_{i=1}^{p} \alpha_i \vec{u}_i = \alpha_1 \vec{u}_1 + \ldots + \alpha_p \vec{u}_p
+\sum_{i=1}^{p} \alpha_i \vec{u}_i = \alpha_1 \vec{u}_1 + \ldots + \alpha_p
+\vec{u}_p
 $$
 
 ## Famille de Vecteurs
