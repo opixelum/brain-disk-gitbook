@@ -10,6 +10,7 @@ $$n$$-**uplet** de $$n$$ nombres réels appelés *composantes*, noté $$\vec{v} 
 ### Échelonnement
 
 Opérations élémentaires sur les lignes d'une matrice :
+
 - Permutation de deux lignes;
 - Multiplication d'une ligne par un scalaire non nul;
 - Addition d'un multiple d'une ligne à une autre.
@@ -27,11 +28,13 @@ Expression formée de la somme de vecteurs multipliés par des scalaires.
 ### Famille liée
 
 Ensemble de vecteurs où au moins un vecteur est nul après échelonnement.
+Au moins un des vecteurs est combinaison linéaire des autres.
 On dit aussi que les vecteurs sont **linéairement dépendants**.
 
 ### Famille libre
 
 Ensemble de vecteurs où aucun vecteur n'est nul après échelonnement.
+Aucun des vecteurs n'est combinaison linéaire des autres.
 On dit aussi que les vecteurs sont **linéairement indépendants**.
 
 ### Famille génératrice
