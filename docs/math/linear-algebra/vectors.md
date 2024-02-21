@@ -54,13 +54,18 @@ Famille libre et génératrice.
 
 ### Norme
 
-Mesure de la longueur d'un vecteur, notée
-$$||\vec{v}||$$.
+Aussi appelée **norme usuelle** ou **norme euclidienne**, mesure de la longueur
+d'un vecteur, notée :
+
+$$
+\| \vec{v} \| = \sqrt{x_1^2 + \ldots + x_n^2} = \sqrt{\vec{v} \cdot \vec{v}}
+$$
 
 ### Produit Scalaire
 
 Somme des produits des composantes de deux vecteurs de même dimension,
-noté:
+notée :
+
 $$
 \vec{u} \cdot \vec{v} = \sum_{i=1}^n u_i v_i
 $$
