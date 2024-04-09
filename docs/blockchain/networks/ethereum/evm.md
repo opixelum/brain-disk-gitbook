@@ -41,7 +41,8 @@ uint32 c;
 - Strings have 1 storage slot for the length, then 1 slot for each 32 bytes of
   the string;
 - A struct is stored in a single slot if it fits, otherwise it is stored in
-  multiple contiguous slots.
+  multiple contiguous slots;
+- Smart contracts have no storage size limit.
 
 ## Opcode
 
