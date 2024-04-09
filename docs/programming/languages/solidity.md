@@ -70,7 +70,7 @@ library StringUtils {
 forge create --rpc-url <rpc-url> --private-key <private-key> --libraries <library-path>:<library-name>:<library-address> <contract-path>:<contract-name>
 ```
 
-### Inlined libraries
+### Inlined (or embedded) libraries
 
 - If a library has **no** ***public*** or ***external*** functions, it can be
   **inlined** (included) in the contract's bytecode, meaning that it will not be
@@ -78,7 +78,11 @@ forge create --rpc-url <rpc-url> --private-key <private-key> --libraries <librar
 - Function calls from contract to library use the **JUMP** opcode (like normal
   function calls);
 - Those libraries are inlined for **efficiency** (cheaper gas fees) &
-  **simplicity** (no need to link libraries to contracts).
+  **simplicity** (no need to link libraries to contracts);
+- For size efficiency, only the used functions of the library are embedded in
+  the contract importing it.
+
+[Further reading here.](https://medium.com/coinmonks/the-nitty-gritty-of-ethereum-and-solidity-libraries-6171ae607b76)
 
 ## Variables data location
 
