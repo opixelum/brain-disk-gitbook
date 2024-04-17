@@ -24,6 +24,10 @@
   * [Backpropagation](ai/nn/backpropagation.md)
   * [Layers](ai/nn/layers.md)
 
+## Big Data
+
+* [Hadoop](big-data/hadoop.md)
+
 ## Blockchain
 
 * [Infrastructure](blockchain/infrastructure.md)
