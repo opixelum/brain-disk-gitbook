@@ -15,4 +15,5 @@
 
 ## Use Case
 
-- Binary classification.
+- Binary classification;
+- Linear problems.
