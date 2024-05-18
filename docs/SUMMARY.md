@@ -13,6 +13,8 @@
 * [Introduction to Artificial Intelligence](ai/intro.md)
 * [Machine Learning](ai/ml.md)
 * [Deep Learning](ai/dl.md)
+* [Losses](ai/losses/losses.md)
+  * [Log Loss](ai/losses/log-loss.md)
 * [Neural Networks](ai/nn/nn.md)
   * [Known Neural Networks](ai/nn/known-nn/)
     * [Convolutional Neural Network (CNN)](ai/nn/known-nn/cnn.md)
@@ -23,6 +25,8 @@
   * [Activation Functions](ai/nn/af.md)
   * [Backpropagation](ai/nn/backpropagation.md)
   * [Layers](ai/nn/layers.md)
+* [Optimizers](ai/optimizers/optimizers.md)
+  * [Gradient Descent](ai/optimizers/gradient-descent.md)
 
 ## Big Data
 
