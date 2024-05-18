@@ -24,3 +24,8 @@
   The secondary NameNode mirrors the primary one: the primary one shares all
   informations about what it's doing;
 - It's ok to have empty DataNodes in case of smaller files.
+
+## Map Reduce
+
+- Map : 
+- Shuffle n Sort : rassembler les éléments de la même clé
