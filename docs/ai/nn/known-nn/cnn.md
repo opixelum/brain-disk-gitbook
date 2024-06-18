@@ -38,7 +38,8 @@
 - Reduces the spatial dimension of the input data;
 - Helps reduce the number of parameters and computational complexity in the
   network;
-- Common methods are average and max pooling.
+- Common methods are average and max pooling;
+- Creates invariance (recognize an object even after its appearance varies).
 
 ![Example of Average and Max Pooling Methods](../../.gitbook/assets/ai/nn/cnn/pooling.webp)
 
