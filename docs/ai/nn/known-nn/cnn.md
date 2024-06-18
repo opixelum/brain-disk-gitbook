@@ -49,7 +49,7 @@ Classifies the input using the extracted features.
 - Reduces the spatial dimension of the input data;
 - Helps reduce the number of parameters and computational complexity in the
   network;
-- Common methods are average and max pooling;
+- Methods are average, global average and max pooling;
 - Creates invariance (recognize an object even after its appearance varies),
   which destroys small translations.
 
