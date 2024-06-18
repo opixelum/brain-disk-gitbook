@@ -8,15 +8,26 @@
 
 ## Network Structure
 
-1. **Base**: Extracts features from the input.
-   Bases are generally chosen from existing and knowns one, such as VGG16 or
-   InceptionV1.
-   Using pretrained models or parts of models is called "transfer learning".
-   Their weights are generally frozen (the base is set to "not trainable") so
-   the head weights don't alter the pretrained ones.
-   If the bases weights trainable, and are planned to be improved, we call that
-   "fine-tuning".
-2. **Head**: Classifies the input using the extracted features.
+### Base
+
+- Extracts features from the input.
+- Bases are generally chosen from existing and knowns one, such as VGG16 or
+  InceptionV1.
+  Using pretrained models or parts of models is called "transfer learning".
+  Their weights are generally frozen (the base is set to "not trainable") so
+  the head weights don't alter the pretrained ones.
+  If the bases weights trainable, and are planned to be improved, we call
+  that "fine-tuning".
+
+Steps:
+
+1. Filter (using kernels);
+2. Detect (using ReLU);
+3. Condense (using pooling).
+
+### Head
+
+Classifies the input using the extracted features.
 
 ## Layers
 
@@ -39,7 +50,8 @@
 - Helps reduce the number of parameters and computational complexity in the
   network;
 - Common methods are average and max pooling;
-- Creates invariance (recognize an object even after its appearance varies).
+- Creates invariance (recognize an object even after its appearance varies),
+  which destroys small translations.
 
 ![Example of Average and Max Pooling Methods](../../.gitbook/assets/ai/nn/cnn/pooling.webp)
 
