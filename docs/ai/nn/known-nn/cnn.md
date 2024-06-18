@@ -6,6 +6,18 @@
 - **Extract attributes** by from **grid-like data** (images, 2D data, etc.) via
   **filters** (aka **kernels**).
 
+## Network Structure
+
+1. **Base**: Extracts features from the input.
+   Bases are generally chosen from existing and knowns one, such as VGG16 or
+   InceptionV1.
+   Using pretrained models or parts of models is called "transfer learning".
+   Their weights are generally frozen (the base is set to "not trainable") so
+   the head weights don't alter the pretrained ones.
+   If the bases weights trainable, and are planned to be improved, we call that
+   "fine-tuning".
+2. **Head**: Classifies the input using the extracted features.
+
 ## Layers
 
 ### Convolutional Layers
