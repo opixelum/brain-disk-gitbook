@@ -1,5 +1,13 @@
 # Neural Networks
 
+- Model's capacity: size and complexity of the patterns it is able to learn.
+  It is largely determined by the number of neurons and how they are
+  connected together.
+  Wide models are models with a lot of neurons in existing layer, and deeper
+  models are models with more layers.
+  Wide models leads to faster training for more linear relationships, while
+  deep models leads to faster training for nonlinear ones.
+
 ## Definition
 
 Computational models inspired by the human brain, represented by groups of nodes
