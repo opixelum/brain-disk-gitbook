@@ -16,6 +16,7 @@
 - [Losses](ai/losses/losses.md)
   - [Log Loss](ai/losses/log-loss.md)
 - [Neural Networks](ai/nn/nn.md)
+  - [Fitting](ai/nn/fitting.md)
   - [Known Neural Networks](ai/nn/known-nn/)
     - [Convolutional Neural Network (CNN)](ai/nn/known-nn/cnn.md)
     - [Multilayer Perceptron (MLP)](ai/nn/known-nn/mlp.md)
