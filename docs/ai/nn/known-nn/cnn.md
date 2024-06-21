@@ -50,6 +50,8 @@ Classifies the input using the extracted features.
 - Helps reduce the number of parameters and computational complexity in the
   network;
 - Methods are average, global average and max pooling;
+- Global average pooling can replace some or even all hidden dense layers and
+  the flatten one in the head of the network;
 - Creates invariance (recognize an object even after its appearance varies),
   which destroys small translations.
 
