@@ -12,3 +12,7 @@
   chance to hit the global minimum of the loss function.
   Bigger learning rates take less time to converge, but can't find the global
   minimum as good as with a smaller learning rate.
+
+## Sources
+
+- [Kaggle - Intro to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
