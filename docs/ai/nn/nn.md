@@ -73,6 +73,17 @@ error between the predicted and the actual output.
 - **Underfitting**: model is too simple, so it is not able to learn the training
   data, letting room for improvement.
 
+## Full process
+
+1. Forward propagation: Feed the network with an input and get predictions;
+2. Loss computation: Compare the predictions with the targets using a loss
+   function (MSE, crossentropy, ...);
+3. Backpropagation: Compute the gradients of the loss function for each layer
+   with their weights and outputs;
+4. Update weights: Adjust the weights in the opposite direction of the gradients
+   in order to minimize the loss (gradient descent), using an optimizer (Adam,
+   SGD, ...).
+
 ## References
 
 - [AI Wiki—Weights and Biases](https://machine-learning.paperspace.com/wiki/weights-and-biases)
